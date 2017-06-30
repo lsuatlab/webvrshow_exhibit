@@ -1,2 +1,5 @@
 source "https://rubygems.org"
-gemspec
+gem 'github-pages', group: :jekyll_plugins
+gem 'guard'
+gem 'guard-livereload'
+gem "rb-fsevent", "0.9.8"
