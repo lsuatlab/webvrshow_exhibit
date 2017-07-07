@@ -1,15 +1,18 @@
-All contributions, including merge requests, feature requests, ideas, design tweaks, etc. are welcome. 
-I welcome all input, from sharing your own implementations of code to general thoughts and ideas. Just open a new issue!
+*To Do Now*
+- [ ] Add works
 
-## Feature Requests
+*To Do Soon*
+- [ ] Add a separate credits screen with
+- [ ] rewrite gemspec
 
-Feature requests are always welcome! If Jekyll can do it and if the theme's design would work well with it, then I would love to add it. Of course, 
-code submission via a merge/pull request is great, but not necessary.
+*Editing*
+- Start with: `bundle exec jekyll serve --watch --incremental`
+- In a separate window: `bundle exec guard`
 
-## Bug Reports
+It's also useful to use watchy: 
+1. `npm install -g watchy`
+2. `watchy -w _config.yml -- bundle exec jekyll serve --watch`
 
-If you encounter any issues with these themes on any devices, please submit a bug report with the device type and a detailed description of what 
-the issue that you're encountering is.
-<br /><br />
-
-*Thank you*
+*Deploying*
+- Build _site files with: `bundle exec jekyll serve`
+- Upload contents of _site via FTP

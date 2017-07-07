@@ -1,19 +1,27 @@
 # site settings
 title: Immersive Expressions
-title-bold: ACM SIGGRAPH
-title-normal: Digital Arts Community
+organization: ACM SIGGRAPH
+organization_url: http://www.siggraph.org
+parent: Digital Arts Community
+parent_url: http://www.siggraph.org/connect/digital-arts
 email: dostrenko@siggraph.org
 description: An online digital art exhibition showcasing virtual reality on the web.
 
 # baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site
 
+collections:
+  works:
+    output: true
+
 # homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 6
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 18
 
 # build settings
 markdown: kramdown
 
 sass:
   style: compressed
+
+exclude: [templates, Guardfile, LICENSE.md, 'README.md', 'Gemfile.lock', 'Gemfile', CONTRIBUTING.md, forty_jekyll_theme.gemspec]
