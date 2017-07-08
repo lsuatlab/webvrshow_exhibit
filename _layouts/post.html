@@ -25,24 +25,32 @@
 		</header>
 		
 		{% if page.image1 %}
-			
-			<span class="image main">
+		<span class="image main">
 
-				<ul id="imageGallery">
-					<li data-thumb="{{ site.baseurl }}/{{ page.image1 }}" data-src="{{ site.baseurl }}/{{ page.image1 }}">
-						<img src="{{ site.baseurl }}/{{ page.image1 }}" />
-					</li>
-					<li data-thumb="{{ site.baseurl }}/{{ page.image2 }}" data-src="{{ site.baseurl }}/{{ page.image2 }}">
-						<img src="{{ site.baseurl }}/{{ page.image2 }}" />
-					</li>
-					<li data-thumb="{{ site.baseurl }}/{{ page.image3 }}" data-src="{{ site.baseurl }}/{{ page.image3 }}">
-						<img src="{{ site.baseurl }}/{{ page.image3 }}" />
-					</li>
-				</ul>
+			<ul id="imageGallery">
+				<li data-thumb="{{ site.baseurl }}/{{ page.image1 }}" data-src="{{ site.baseurl }}/{{ page.image1 }}">
+					<img src="{{ site.baseurl }}/{{ page.image1 }}" />
+				</li>
+				<li data-thumb="{{ site.baseurl }}/{{ page.image2 }}" data-src="{{ site.baseurl }}/{{ page.image2 }}">
+					<img src="{{ site.baseurl }}/{{ page.image2 }}" />
+				</li>
+				<li data-thumb="{{ site.baseurl }}/{{ page.image3 }}" data-src="{{ site.baseurl }}/{{ page.image3 }}">
+					<img src="{{ site.baseurl }}/{{ page.image3 }}" />
+				</li>
+			</ul>
 
-			</span>
+		</span>
 		{% endif %}
 
+		{% if page.video %}
+		<!-- Hidden video div -->
+		<div style="display:none;" id="video1">
+		    <video class="lg-video-object lg-html5" controls preload="none">
+		        <source src="{{ site.baseurl }}/{{ page.video }}" type="video/mp4">
+		         Your browser does not support HTML5 video.
+		    </video>
+		</div>
+		{% endif %}
 
 		<p>{{ content }}</p>
 	</div>
