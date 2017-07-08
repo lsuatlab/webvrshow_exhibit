@@ -16,12 +16,14 @@ work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_co
 
 ## Requirements
 
-|                |Edge|Chrome|Chromium  |Firefox|Firefox Nightly|Safari  
-|----------------|:--:|:----:|:--------:|:-----:|:-------------:|:----:
-|Desktop (360)   |✔   |✔     |✔         |✔      |✔              |✔     
-|Google Cardboard|    |✔     |          |✔      |               |✔     
-|Oculus Rift     |    |      |✔(Windows)|       |✔(Windows)     |      
-|HTC Vive        |    |      |✔(Windows)|       |✔(Windows)     |      
+|                |Edge|Chrome|[Chromium][1]|Firefox|Firefox Nightly|Safari  
+|----------------|:--:|:----:|:-----------:|:-----:|:-------------:|:----:
+|Desktop (360)   |✔   |✔     |✔            |✔      |✔              |✔     
+|Google Cardboard|    |✔     |             |✔      |               |✔     
+|Oculus Rift     |    |      |✔(Windows)   |       |✔(Windows)     |      
+|HTC Vive        |    |      |✔(Windows)   |       |✔(Windows)     | 
+
+[1]:instructions.html     
 
 </div>
 
