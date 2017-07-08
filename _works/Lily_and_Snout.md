@@ -23,7 +23,9 @@ work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_co
 |Oculus Rift     |    |      |✔(Windows)   |       |✔(Windows)     |      
 |HTC Vive        |    |      |✔(Windows)   |       |✔(Windows)     | 
 
-[1]:instructions.html     
+[1]:instructions.html 
+
+*Note: The Desktop (360) and Google Cardboard experiences do not usually require any special browser setup. For instructions on how to setup your browser to work with the Rift or Vive click on the browser name above.*
 
 </div>
 
