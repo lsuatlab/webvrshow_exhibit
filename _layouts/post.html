@@ -23,18 +23,34 @@
 			<h1>{{ page.title }}</h1>
             <p>{{ page.author }}</p>
 		</header>
+
+		
 		
 		{% if page.image1 %}
 		<span class="image main">
 
 			<ul id="imageGallery">
-				<li data-thumb="{{ site.baseurl }}/{{ page.image1 }}" data-src="{{ site.baseurl }}/{{ page.image1 }}">
+				<li data-thumb="{{ site.baseurl }}/{{ page.image1 }}">
 					<img src="{{ site.baseurl }}/{{ page.image1 }}" />
 				</li>
-				<li data-thumb="{{ site.baseurl }}/{{ page.image2 }}" data-src="{{ site.baseurl }}/{{ page.image2 }}">
+				{% if page.video1 %}
+				<li data-thumb="{{ site.baseurl }}/{{ page.video-poster }}">
+      				<video id="work-video" class="video-js" controls preload="auto" poster="{{ site.baseurl }}/{{ page.video-poster }}">
+		       			<source src="{{ site.baseurl }}/{{ page.video1 }}" type="video/mp4">
+		       			{% if page.video1-vp9 %}
+		       			<source src="{{ site.baseurl }}/{{ page.video1-vp9 }}" type="video/mp4">
+		         		{% endif %}    
+		         		    <p class="vjs-no-js">
+      							To view this video please enable JavaScript, and consider upgrading to a web browser that
+      							supports HTML5 video</a>
+    						</p>
+		    		</video>
+  				</li>
+  				{% endif %}
+				<li data-thumb="{{ site.baseurl }}/{{ page.image2 }}">
 					<img src="{{ site.baseurl }}/{{ page.image2 }}" />
 				</li>
-				<li data-thumb="{{ site.baseurl }}/{{ page.image3 }}" data-src="{{ site.baseurl }}/{{ page.image3 }}">
+				<li data-thumb="{{ site.baseurl }}/{{ page.image3 }}">
 					<img src="{{ site.baseurl }}/{{ page.image3 }}" />
 				</li>
 			</ul>
@@ -42,15 +58,7 @@
 		</span>
 		{% endif %}
 
-		{% if page.video %}
-		<!-- Hidden video div -->
-		<div style="display:none;" id="video1">
-		    <video class="lg-video-object lg-html5" controls preload="none">
-		        <source src="{{ site.baseurl }}/{{ page.video }}" type="video/mp4">
-		         Your browser does not support HTML5 video.
-		    </video>
-		</div>
-		{% endif %}
+	
 
 		<p>{{ content }}</p>
 	</div>
@@ -59,6 +67,16 @@
 </div>
 
     {% include footer.html %}
+
+    <!-- slideshow -->
+	<script src="{{ "assets/js/video.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/lightslider.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/slideshow.js" | absolute_url }}"></script>
+	<!-- <script src="{{ "assets/js/lightGallery.min.js" | absolute_url }}"></script> -->
+	<!-- <script src="{{ "assets/js/jquery.mousewheel.min.js" | absolute_url }}"></script> -->
+	<!-- <script src="{{ "assets/js/lg-fullscreen.min.js" | absolute_url }}"></script> -->
+	<!-- <script src="{{ "assets/js/lg-video.min.js" | absolute_url }}"></script> -->
+	<!-- <script src="{{ "assets/js/lg-thumbnail.min.js" | absolute_url }}"></script> -->
 
 </body>
 
