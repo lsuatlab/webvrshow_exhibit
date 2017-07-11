@@ -12,7 +12,6 @@ images:
 video-poster: Bear_71_VR-poster.png
 videos: 
 - Bear_71_VR-h264.mp4
-- Bear_71_VR-vp9.webm
 work-url: https://bear71vr.nfb.ca/
 ---
 

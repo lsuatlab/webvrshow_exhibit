@@ -1,11 +1,14 @@
+{% include base.html %}
+
 <head>
 	<title>{{ site.title }}</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<!--[if lte IE 8]><script src="{{ "assets/js/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
-	<link rel="stylesheet" href="{{ "assets/css/main.css" | absolute_url }}" />
-	<link rel="stylesheet" href="{{ "assets/css/lightslider.min.css" | absolute_url }}" /> 
-	<link rel="stylesheet" href="{{ "assets/css/video-js.min.css" | absolute_url }}" />                  
-	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
-	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
+	
+	<!--[if lte IE 8]><script src="{{base}}/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="{{base}}/assets/css/main.css" />
+	<link rel="stylesheet" href="{{base}}/assets/css/lightslider.min.css" /> 
+	<link rel="stylesheet" href="{{base}}/assets/css/video-js.min.css" />   
+	<!--[if lte IE 9]><link rel="stylesheet" href=""{{base}}/assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="{{base}}/assets/css/ie8.css" /><![endif]-->
 </head>

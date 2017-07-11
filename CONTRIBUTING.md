@@ -1,12 +1,16 @@
 **To Do**
-- [x] add work content from easychair
-- [x] finish template
+- [ ] upload vidoes to DAC YouTube
+- [ ] add google analytics
 - [ ] add a separate credits screen with
 - [ ] rewrite gemspec
 - [ ] get the videos published 
 - [ ] tidy up text for each piece. 
 - [ ] curator's statement
 - [ ] compatibility charts  
+
+**Done**
+- [x] add work content from easychair
+- [x] finish template
 
 **Editing**
 - Start with: `bundle exec jekyll serve --watch --incremental`

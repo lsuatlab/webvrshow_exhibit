@@ -31,20 +31,20 @@
 			<ul id="imageGallery">
 				
 				{% for image in page.images %}
-	        		<li data-thumb="{{ page.baselocation }}{{ page.titleUnderscored }}/{{ image }}">
-	        			<img src="{{ page.baselocation }}{{ page.titleUnderscored }}/{{ image }}" alt="image" />
+	        		<li data-thumb="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ image }}">
+	        			<img src="{{base}}/{{ site.baseurl }}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ image }}" alt="image" />
 	        		</li>
 				{% endfor %}
 				
 				{% if page.videos %}
-				<li data-thumb="{{ page.baselocation }}{{ page.titleUnderscored }}/{{ page.video-poster }}">
-      				<video id="work-video" class="video-js" controls preload="auto" poster="{{ page.baselocation }}{{ page.titleUnderscored }}/{{ page.video-poster }}">
+				<li data-thumb="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ page.video-poster }}">
+      				<video id="work-video" class="video-js" controls preload="auto" poster="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ page.video-poster }}">
 		       			{% for video in page.videos %}
 		       			{% if video contains "mp4" %}
-		       			<source src="{{ page.baselocation }}{{ page.titleUnderscored }}/{{ video }}" type="video/mp4">
+		       			<source src="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ video }}" type="video/mp4">
 		       			{% endif %}
 		       			{% if video contains "webm" %}
-		       			<source src="{{ page.baselocation }}{{ page.titleUnderscored }}/{{ video }}" type="video/webm">
+		       			<source src="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ video }}" type="video/webm">
 		         		{% endif %}
 		         		{% endfor %}    
 		         		    <p class="vjs-no-js">

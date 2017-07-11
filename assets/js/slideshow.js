@@ -3,7 +3,7 @@ $(document).ready(function() {
       gallery:true,
       item:1,
       loop:true,
-      enableDrag:true,
+      enableDrag:false,
       keyPress: true,
       // thumbItem:10,
       slideMargin:0
