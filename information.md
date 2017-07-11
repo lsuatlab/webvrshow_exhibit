@@ -1,9 +1,9 @@
 ---
-title: Landing
+title: Information
 layout: landing
 description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/images/pic07.jpg
-nav-menu: false
+image: assets/works/loft/loft.jpg
+nav-menu: true
 ---
 
 <!-- Main -->

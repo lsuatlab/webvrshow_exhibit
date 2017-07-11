@@ -1,12 +1,12 @@
 ---
-title: Instructions
-layout: post
+title: WebVR Browser Setup
+layout: landing
+description: Lorem ipsum dolor est
+image: assets/works/Lily_and_Snout/Lily_and_Snout_1.jpg
+nav-menu: true
 ---
-# Browser WebVR Setup Instructions
-
 <div id="desktop-ins">&nbsp;</div>
 <div class="box" markdown="1">
-
 ## Desktop(360)
 
 Many WebVR sites allow the option for viewing content using the Desktop with a modern web browser. They often do this by providing a means for navigting in 360-degrees through panning, orbitting, and zooming with the cursor. 

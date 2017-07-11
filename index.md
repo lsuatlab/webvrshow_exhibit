@@ -7,4 +7,4 @@ image: null
 author: null
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+The ACM SIGGRAPH Digital Arts Community presents Immersive Expressions an online WebVR exhibition that explores the browser as a medium for work at the intersection of creative expression and virtual reality. Chosen works include those that push conceptual and technological boundaries including interactive experiments, games, animation, 360-degree video experiences, and other hybrid approaches. This includes works that are more abstract and conceptual, or those created by creative technologists with a unique approach to virtual reality. Indie developers, artists, designers, computer scientists, filmmakers, and companies working at the forefront of web-based VR are showcased.

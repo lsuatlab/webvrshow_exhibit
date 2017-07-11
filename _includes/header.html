@@ -18,16 +18,17 @@
 	<ul class="links">
         {% for page in site.pages %}
 		    {% if page.layout == "home" %}
-		        <li><a href="/">{{ page.title }}</a></li>
+		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
 	    	{% endif %}
 		{% endfor %}
 		{% for page in site.pages %}
-		    {% if page.layout != "home" %}
-		        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+		    {% if page.layout != "home" and page.nav-menu == true %}
+		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 		    {% endif %}
 		{% endfor %}
 	</ul>
 	<ul class="actions vertical">
-		<li><a href="#" class="button fit">Log In</a></li>
+		<li><a href="http://www.siggraph.org/connect/digital-arts" target="_blank" class="button special fit">Digital Arts @ ACM SIGGRAPH</a></li>
+		<li><a href="https://github.com/lsuatlab/webvrshow_exhibit" target="_blank" class="button fit">Contribute</a></li>
 	</ul>
 </nav>
