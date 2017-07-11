@@ -12,7 +12,6 @@
 
     {% include header.html %} 
     
-    
 <!-- Main -->
 <div id="main" class="alt">
 
@@ -24,21 +23,32 @@
             <p>{{ page.author }}</p>
 		</header>
 
-		
+
 		
 		{% if page.image1 %}
 		<span class="image main">
 
 			<ul id="imageGallery">
-				<li data-thumb="{{ site.baseurl }}/{{ page.image1 }}">
-					<img src="{{ site.baseurl }}/{{ page.image1 }}" />
-				</li>
-				{% if page.video1 %}
-				<li data-thumb="{{ site.baseurl }}/{{ page.video-poster }}">
-      				<video id="work-video" class="video-js" controls preload="auto" poster="{{ site.baseurl }}/{{ page.video-poster }}">
-		       			<source src="{{ site.baseurl }}/{{ page.video1 }}" type="video/mp4">
-		       			{% if page.video1-vp9 %}
-		       			<source src="{{ site.baseurl }}/{{ page.video1-vp9 }}" type="video/mp4">
+				{% capture theloop %}
+				{% for media in site.static_files %}
+    			{% if media.basename contains page.titleUnderscored %}
+    			{% if media.extname contains "jpg" %}
+	    			{% unless media.basename contains "poster" %}
+	        		<li data-thumb="{{ media.path }}">
+	        			<img src="{{ media.path }}" alt="media" />
+	        		</li>
+	        		{% endunless %}
+        		{% endif %}
+   				{% endif %}
+				{% endfor %}
+				{% endcapture %}{{ theloop | strip_newlines }}
+
+				{% if page.video %}
+				<li data-thumb="{{ page.video-poster }}">
+      				<video id="work-video" class="video-js" controls preload="auto" poster="{{ page.video-poster }}">
+		       			<source src="{{ page.video }}" type="video/mp4">
+		       			{% if page.video-vp9 %}
+		       			<source src="{{ page.video-vp9 }}" type="video/webm">
 		         		{% endif %}    
 		         		    <p class="vjs-no-js">
       							To view this video please enable JavaScript, and consider upgrading to a web browser that
@@ -47,12 +57,7 @@
 		    		</video>
   				</li>
   				{% endif %}
-				<li data-thumb="{{ site.baseurl }}/{{ page.image2 }}">
-					<img src="{{ site.baseurl }}/{{ page.image2 }}" />
-				</li>
-				<li data-thumb="{{ site.baseurl }}/{{ page.image3 }}">
-					<img src="{{ site.baseurl }}/{{ page.image3 }}" />
-				</li>
+
 			</ul>
 
 		</span>
@@ -67,16 +72,6 @@
 </div>
 
     {% include footer.html %}
-
-    <!-- slideshow -->
-	<script src="{{ "assets/js/video.min.js" | absolute_url }}"></script>
-	<script src="{{ "assets/js/lightslider.min.js" | absolute_url }}"></script>
-	<script src="{{ "assets/js/slideshow.js" | absolute_url }}"></script>
-	<!-- <script src="{{ "assets/js/lightGallery.min.js" | absolute_url }}"></script> -->
-	<!-- <script src="{{ "assets/js/jquery.mousewheel.min.js" | absolute_url }}"></script> -->
-	<!-- <script src="{{ "assets/js/lg-fullscreen.min.js" | absolute_url }}"></script> -->
-	<!-- <script src="{{ "assets/js/lg-video.min.js" | absolute_url }}"></script> -->
-	<!-- <script src="{{ "assets/js/lg-thumbnail.min.js" | absolute_url }}"></script> -->
 
 </body>
 

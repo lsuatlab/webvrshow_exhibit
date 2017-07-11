@@ -2,19 +2,15 @@
 layout: post
 title: Bear 71 VR
 author: Leanne Allison and Jeremy Mendes
-image1: assets/works/Lily_and_Snout/Lily_and_Snout_1.jpg
-image2: assets/works/Lily_and_Snout/Lily_and_Snout_2.jpg
-image3: assets/works/Lily_and_Snout/Lily_and_Snout_3.jpg
-video1: assets/works/Lily_and_Snout/Lily_and_Snout-h264.mp4
-video1-vp9: assets/works/Lily_and_Snout/Lily_and_Snout-vp9.mkv
-video-poster: assets/works/Lily_and_Snout/Lily_and_Snout-poster.png
+titleUnderscored: Bear_71_VR
+image: assets/works/Bear_71_VR/Bear_71_VR_1.jpg
+video: assets/works/Bear_71_VR/Bear_71_VR-h264.mp4
+video-vp9: assets/works/Bear_71_VR/Bear_71_VR-vp9.webm
+video-poster: assets/works/Bear_71_VR/Bear_71_VR-poster.png
 work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_constraint_pitch_down=0&scrollwheel=0&autospin=0&navigation=fps&fps_speed=0&camera=0&preload=1
 ---
 
-
 <h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Click to Experience</a></h2>
-
-***Note**: If the initial camera angle doesn't start off right in Lily and Snout you may have to first click the question mark (?) icon then "Reset Camera View."*
 
 <div class="box" markdown="1">
 

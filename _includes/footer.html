@@ -43,10 +43,24 @@
 </div>
 
 	<!-- Scripts -->
-	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
-	<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
-	<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
-	<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
-	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
-	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
-	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | relative_url }}"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+
+	<!-- slideshow -->
+	{% if page.video1 %}
+	<script src="assets/js/video.min.js"></script> 
+	<script src="assets/js/slideshow-video.js"></script>
+	{% endif %}
+
+	<script src="assets/js/slideshow.js"></script>
+	<script src="assets/js/lightslider.min.js"></script>
+	<!-- <script src="{{ "assets/js/lightGallery.min.js" | relative_url }}"></script> -->
+	<!-- <script src="{{ "assets/js/jquery.mousewheel.min.js" | relative_url }}"></script> -->
+	<!-- <script src="{{ "assets/js/lg-fullscreen.min.js" | relative_url }}"></script> -->
+	<!-- <script src="{{ "assets/js/lg-video.min.js" | relative_url }}"></script> -->
+	<!-- <script src="{{ "assets/js/lg-thumbnail.min.js" | relative_url }}"></script> -->

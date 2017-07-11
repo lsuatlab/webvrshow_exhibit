@@ -1,11 +1,14 @@
 <section id="one" class="tiles">
     {% for work in site.works %}
+
+    {{ work }}
+
     <article>
         <span class="image">
             <img src="{{ work.image }}" alt="" />
         </span>
         <header class="major">
-            <h3><a href="{{ work.url | relative_url  }}" class="link">{{ work.title }}</a></h3>
+            <h3><a href="{{ work.url }}" class="link">{{ work.title }}</a></h3>
             <p>{{ work.author }}</p>
         </header>
     </article>

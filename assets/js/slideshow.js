@@ -11,7 +11,6 @@ $(document).ready(function() {
   });
 });
 
-var myPlayer = videojs('work-video', { fluid: true });
 
 
 // $('#myvideo').hover(function toggleControls() {
