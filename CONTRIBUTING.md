@@ -1,9 +1,12 @@
-*To Do Now*
-- [ ] Add works
-
-*To Do Soon*
-- [ ] Add a separate credits screen with
+*To Do*
+- [x] add work content from easychair
+- [x] finish template
+- [ ] add a separate credits screen with
 - [ ] rewrite gemspec
+- [ ] get the videos published 
+- [ ] tidy up text for each piece. 
+- [ ] curator's statement
+- [ ] compatibility charts  
 
 *Editing*
 - Start with: `bundle exec jekyll serve --watch --incremental`
@@ -14,5 +17,5 @@ It's also useful to use watchy:
 2. `watchy -w _config.yml -- bundle exec jekyll serve --watch`
 
 *Deploying*
-- Build _site files with: `bundle exec jekyll serve`
+- Build _site files with: `bundle exec jekyll build`
 - Upload contents of _site via FTP
