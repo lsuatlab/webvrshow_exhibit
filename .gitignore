@@ -4,5 +4,6 @@ Gemfile.lock
 .DS_Store
 *.gem
 *.mov
-*.mp4
 *.avi
+**/originals/
+_site/
