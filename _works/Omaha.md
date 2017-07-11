@@ -13,13 +13,11 @@ video-poster: Omaha-poster.png
 videos: 
 - Omaha-h264.mp4
 - Omaha-vp9.webm
-work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_constraint_pitch_down=0&scrollwheel=0&autospin=0&navigation=fps&fps_speed=0&camera=0&preload=1
+work-url: https://omaha.surge.sh
 ---
 
 
 <h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Click to Experience</a></h2>
-
-***Note**: If the initial camera angle doesn't start off right in Lily and Snout you may have to first click the question mark (?) icon then "Reset Camera View."*
 
 <div class="box" markdown="1">
 
@@ -50,11 +48,9 @@ work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_co
 <div class="box" markdown="1">
 
 ## Description
-*Lily & Snout* by Alban Denoyel and Bobby Beck is a WebVR short animation. It is the result of a partnership by the two companies Sketchfab and Artella. They present a fully hosted player on the web that can be experienced in VR on any headset. The project demonstrates the potential for vieweing animated content on the web where the viewer takes control of the camera and even provides a glimpse of the creation processs while expreiencing the content by allowing wireframe views and different shader choices. The animated content demonstrates the ability of the browser to render appealing characters while the custom built player is a efficient interface for a variety of content.    
+Omaha is an immersive WebVR piece that strings together worlds of nostalgia -- a universe from which there appears to be no way out. The experience is a series of very simple scenes or chapters, each referencing a piece of media that was at one point so inescapable as to invoke fond memories of that media in spite of or even because of its flaws. Omaha is intended as an experiment in rapid iteration of small, shareable meme-like moments in the tradition of animated gifs or Vine.    
 
 ## Bios	
-**[Alban Denoyel](http://denoyel.com/)** is 32-year-old French entrepreneur. He is the co-founder and CEO of Sketchfab. Prior to Sketchfab, he launched a web agency, and worked for 4 years in the 2D world of photojournalists. He graduated from ESSEC Business School (Paris, France). 
-
-**[Bobby Beck](https://twitter.com/bobbyboombeck)** is the CEO and cofounder of the online animation school Animation Mentor, and online collaboration platform Artella. He is a former Pixar animator.
+JESSICA BRILLHART is the principal filmmaker for VR at Google. In 2009, she joined Google's Creative Lab where she spearheaded numerous award winning shorts and documentaries before joining the VR team in 2015. Since directing, WORLD TOUR – the first VR film made with the Jump ecosystem – Brillhart has continued traveling the world, filming and experimenting, all in an effort to better understand and help inform others about this emergent medium. BRIAN CHIRLS is Co-founder and Chief Technology Officer at Datavized Technologies, Inc a WebVR software company building a data-driven publishing platform for the 3D web. He is a recognized WebVR pioneer and creator of the WebVR Starter Kit. Prior to Datavized, Brian completed a Knight Technology Fellowship at POV, where he worked on experimental interactive documentary technology. He has developed innovative models for interaction, data visualization and content-authoring in virtual reality. Brian has helped to create a new genre of interactive video pieces and software libraries that demonstrate ways to combine the interactivity and connectivity of the web with the aesthetic power of cinema and his work has been presented at CPH:DOX, IDFA DocLab, SXSW, Tribeca Film Institute and MIT.
 
 </div>
