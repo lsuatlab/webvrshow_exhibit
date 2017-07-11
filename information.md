@@ -2,7 +2,7 @@
 title: Information
 layout: landing
 description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/works/loft/loft.jpg
+image: assets/works/loft/loft_1.jpg
 nav-menu: true
 ---
 
