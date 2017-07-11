@@ -14,7 +14,7 @@ description: An online digital art exhibition showcasing virtual reality on the 
 collections:
   works:
     output: true
-    permalink: /:name
+    permalink: :name
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"

@@ -12,7 +12,6 @@ images:
 video-poster: Worlds_Marpi_x_Archan_Nair-poster.png
 videos: 
 - Worlds_Marpi_x_Archan_Nair-h264.mp4
-- Worlds_Marpi_x_Archan_Nair-vp9.webm
 work-url: http://demo.marpi.pl/archan/
 ---
 
