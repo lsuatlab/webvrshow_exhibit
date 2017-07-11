@@ -1,6 +1,7 @@
 .sass-cache/
 .jekyll-metadata
 Gemfile.lock
+.DS_Store
 *.gem
 *.mov
 *.mp4
