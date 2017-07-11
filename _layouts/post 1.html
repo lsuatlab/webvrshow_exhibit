@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %} 
+    
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>{{ page.title }}</h1>
+            <p>{{ page.author }}</p>
+		</header>
+
+
+		
+		{% if page.image1 %}
+		<span class="image main">
+
+			<ul id="imageGallery">
+				{% capture theloop %}
+				{% for media in site.static_files %}
+    			{% if media.basename contains page.titleUnderscored %}
+    			{% if media.extname contains "jpg" %}
+	    			{% unless media.basename contains "poster" %}
+	        		<li data-thumb="{{ media.path }}">
+	        			<img src="{{ media.path }}" alt="media" />
+	        		</li>
+	        		{% endunless %}
+        		{% endif %}
+   				{% endif %}
+				{% endfor %}
+				{% endcapture %}{{ theloop | strip_newlines }}
+
+				{% if page.video %}
+				<li data-thumb="{{ page.video-poster }}">
+      				<video id="work-video" class="video-js" controls preload="auto" poster="{{ page.video-poster }}">
+		       			<source src="{{ page.video }}" type="video/mp4">
+		       			{% if page.video-vp9 %}
+		       			<source src="{{ page.video-vp9 }}" type="video/webm">
+		         		{% endif %}    
+		         		    <p class="vjs-no-js">
+      							To view this video please enable JavaScript, and consider upgrading to a web browser that
+      							supports HTML5 video</a>
+    						</p>
+		    		</video>
+  				</li>
+  				{% endif %}
+
+			</ul>
+
+		</span>
+		{% endif %}
+
+	
+
+		<p>{{ content }}</p>
+	</div>
+</section>
+
+</div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
