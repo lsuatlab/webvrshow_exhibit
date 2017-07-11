@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Way To Go
+title: Way to Go
 author: Vincent Morisset, Caroline Robert, Édouard Lanctôt-Benoit and Philippe Lambert
-titleUnderscored: Way_To_Go
+titleUnderscored: Way_to_Go
 baselocation: assets/works/
-image: assets/works/Way_To_Go/Way_To_Go_1.jpg
+image: assets/works/Way_to_Go/Way_to_Go_1.jpg
 images:
-- Way_To_Go_1.jpg
-- Way_To_Go_2.jpg
-- Way_To_Go_3.jpg
-video-poster: Way_To_Go-poster.png
+- Way_to_Go_1.jpg
+- Way_to_Go_2.jpg
+- Way_to_Go_3.jpg
+video-poster: Way_to_Go-poster.png
 videos: 
-- Way_To_Go-h264.mp4
-- Way_To_Go-vp9.webm
+- Way_to_Go-h264.mp4
+- Way_to_Go-vp9.webm
 work-url: http://a-way-to-go.com
 ---
 
