@@ -2,17 +2,22 @@
 layout: post
 title: Finding Love
 author: Active Theory
+titleUnderscored: Finding_Love
+baselocation: assets/works/
 image: assets/works/Finding_Love/Finding_Love_1.jpg
-video: assets/works/Finding_Love/Finding_Love-h264.mp4
-video-vp9: assets/works/Finding_Love/Finding_Love-vp9.webm
-video-poster: assets/works/Finding_Love/Finding_Love-poster.png
-work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_constraint_pitch_down=0&scrollwheel=0&autospin=0&navigation=fps&fps_speed=0&camera=0&preload=1
+images:
+- Finding_Love_1.jpg
+- Finding_Love_2.jpg
+- Finding_Love_3.jpg
+video-poster: Finding_Love-poster.png
+videos: 
+- Finding_Love-h264.mp4
+- Finding_Love-vp9.webm
+work-url: https://findinglove.activetheory.net
 ---
 
 
 <h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Click to Experience</a></h2>
-
-***Note**: If the initial camera angle doesn't start off right in Lily and Snout you may have to first click the question mark (?) icon then "Reset Camera View."*
 
 <div class="box" markdown="1">
 
@@ -43,11 +48,9 @@ work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_co
 <div class="box" markdown="1">
 
 ## Description
-*Lily & Snout* by Alban Denoyel and Bobby Beck is a WebVR short animation. It is the result of a partnership by the two companies Sketchfab and Artella. They present a fully hosted player on the web that can be experienced in VR on any headset. The project demonstrates the potential for vieweing animated content on the web where the viewer takes control of the camera and even provides a glimpse of the creation processs while expreiencing the content by allowing wireframe views and different shader choices. The animated content demonstrates the ability of the browser to render appealing characters while the custom built player is a efficient interface for a variety of content.    
+Finding Love is a fully interactive, Virtual Reality story that transforms emotions into art. Moving through five distinct chapters, you experience the journey purely through visuals and sound.   
 
 ## Bios	
-**[Alban Denoyel](http://denoyel.com/)** is 32-year-old French entrepreneur. He is the co-founder and CEO of Sketchfab. Prior to Sketchfab, he launched a web agency, and worked for 4 years in the 2D world of photojournalists. He graduated from ESSEC Business School (Paris, France). 
-
-**[Bobby Beck](https://twitter.com/bobbyboombeck)** is the CEO and cofounder of the online animation school Animation Mentor, and online collaboration platform Artella. He is a former Pixar animator.
+...
 
 </div>

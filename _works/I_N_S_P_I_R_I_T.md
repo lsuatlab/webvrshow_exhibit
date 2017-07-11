@@ -2,19 +2,22 @@
 layout: post
 title: I N S P I R I T
 author: Arturo Paracuellos and Guillermo Laporta
-image1: assets/works/Lily_and_Snout/Lily_and_Snout_1.jpg
-image2: assets/works/Lily_and_Snout/Lily_and_Snout_2.jpg
-image3: assets/works/Lily_and_Snout/Lily_and_Snout_3.jpg
-video1: assets/works/Lily_and_Snout/Lily_and_Snout-h264.mp4
-video1-vp9: assets/works/Lily_and_Snout/Lily_and_Snout-vp9.mkv
-video-poster: assets/works/Lily_and_Snout/Lily_and_Snout-poster.png
-work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_constraint_pitch_down=0&scrollwheel=0&autospin=0&navigation=fps&fps_speed=0&camera=0&preload=1
+titleUnderscored: I_N_S_P_I_R_I_T
+baselocation: assets/works/
+image: assets/works/I_N_S_P_I_R_I_T/I_N_S_P_I_R_I_T_1.jpg
+images:
+- I_N_S_P_I_R_I_T_1.jpg
+- I_N_S_P_I_R_I_T_2.jpg
+- I_N_S_P_I_R_I_T_3.jpg
+video-poster: I_N_S_P_I_R_I_T-poster.png
+videos: 
+- I_N_S_P_I_R_I_T-h264.mp4
+- I_N_S_P_I_R_I_T-vp9.webm
+work-url: http://inspirit.unboring.net/
 ---
 
 
 <h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Click to Experience</a></h2>
-
-***Note**: If the initial camera angle doesn't start off right in Lily and Snout you may have to first click the question mark (?) icon then "Reset Camera View."*
 
 <div class="box" markdown="1">
 
@@ -45,11 +48,14 @@ work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_co
 <div class="box" markdown="1">
 
 ## Description
-*Lily & Snout* by Alban Denoyel and Bobby Beck is a WebVR short animation. It is the result of a partnership by the two companies Sketchfab and Artella. They present a fully hosted player on the web that can be experienced in VR on any headset. The project demonstrates the potential for vieweing animated content on the web where the viewer takes control of the camera and even provides a glimpse of the creation processs while expreiencing the content by allowing wireframe views and different shader choices. The animated content demonstrates the ability of the browser to render appealing characters while the custom built player is a efficient interface for a variety of content.    
+I N S P I R I T may seem to be a story about light, but it is really more about people. People who enlighten us and complete us; because I like to think that there are people whose presence lights us up inside.   
 
 ## Bios	
-**[Alban Denoyel](http://denoyel.com/)** is 32-year-old French entrepreneur. He is the co-founder and CEO of Sketchfab. Prior to Sketchfab, he launched a web agency, and worked for 4 years in the 2D world of photojournalists. He graduated from ESSEC Business School (Paris, France). 
+Since childhood I have dreamed to create imaginary worlds and now I've learned to draw and bring them to life with code. 
 
-**[Bobby Beck](https://twitter.com/bobbyboombeck)** is the CEO and cofounder of the online animation school Animation Mentor, and online collaboration platform Artella. He is a former Pixar animator.
+I obtained my B.Sc. in Geological Science in 2000 but I've only worked in online development related jobs as interactive designer/developer. In 2010 I founded unboring.net with the main goal to create a new interactive entertainment and to help brands to create inmersive experiences.
+This year my effort is centered in the world of 3D web and the emergence of VR, that give me the opportunity to offer new ways of interacting with content.
+
+Now, my goal is to create innovative projects that demonstrate that through the Web you can get amazing results.
 
 </div>

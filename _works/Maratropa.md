@@ -2,12 +2,18 @@
 layout: post
 title: Maratropa
 author: Marpi Marcinowski
-image1: assets/works/Lily_and_Snout/Lily_and_Snout_1.jpg
-image2: assets/works/Lily_and_Snout/Lily_and_Snout_2.jpg
-image3: assets/works/Lily_and_Snout/Lily_and_Snout_3.jpg
-video1: assets/works/Lily_and_Snout/Lily_and_Snout-h264.mp4
-video-poster: assets/works/Lily_and_Snout/Lily_and_Snout-poster.png
-work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_constraint_pitch_down=0&scrollwheel=0&autospin=0&navigation=fps&fps_speed=0&camera=0&preload=1
+titleUnderscored: Maratropa
+baselocation: assets/works/
+image: assets/works/Maratropa/Maratropa_1.jpg
+images:
+- Maratropa_1.jpg
+- Maratropa_2.jpg
+- Maratropa_3.jpg
+video-poster: Maratropa-poster.png
+videos: 
+- Maratropa-h264.mp4
+- Maratropa-vp9.webm
+work-url: https://maratropa.com/
 ---
 
 

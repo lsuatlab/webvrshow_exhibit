@@ -1,19 +1,23 @@
 ---
 layout: post
-title: Lily and Snout
-author: Alban Denoyel and Bobby Beck
-image1: assets/works/Lily_and_Snout/Lily_and_Snout_1.jpg
-image2: assets/works/Lily_and_Snout/Lily_and_Snout_2.jpg
-image3: assets/works/Lily_and_Snout/Lily_and_Snout_3.jpg
-video1: assets/works/Lily_and_Snout/Lily_and_Snout-h264.mp4
-video-poster: assets/works/Lily_and_Snout/Lily_and_Snout-poster.png
-work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_constraint_pitch_down=0&scrollwheel=0&autospin=0&navigation=fps&fps_speed=0&camera=0&preload=1
+title: Paper Town VR
+author: Emil Polyak, Patrick Fitzgerald, Simon Park, Connor Shipway, Hilary Smith, Julia Lineberry, Nattanun Sumpunkulpak, Monica Nguyen and Lucas Gargano
+titleUnderscored: Paper_Town_VR
+baselocation: assets/works/
+image: assets/works/Paper_Town_VR/Paper_Town_VR_1.jpg
+images:
+- Paper_Town_VR_1.jpg
+- Paper_Town_VR_2.jpg
+- Paper_Town_VR_3.jpg
+video-poster: Paper_Town_VR-poster.png
+videos: 
+- Paper_Town_VR-h264.mp4
+- Paper_Town_VR-vp9.webm
+work-url: http://www.polyzaar.com/papertownvr
 ---
 
 
 <h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Click to Experience</a></h2>
-
-***Note**: If the initial camera angle doesn't start off right in Lily and Snout you may have to first click the question mark (?) icon then "Reset Camera View."*
 
 <div class="box" markdown="1">
 
@@ -44,7 +48,11 @@ work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_co
 <div class="box" markdown="1">
 
 ## Description
-*Lily & Snout* by Alban Denoyel and Bobby Beck is a WebVR short animation. It is the result of a partnership by the two companies Sketchfab and Artella. They present a fully hosted player on the web that can be experienced in VR on any headset. The project demonstrates the potential for vieweing animated content on the web where the viewer takes control of the camera and even provides a glimpse of the creation processs while expreiencing the content by allowing wireframe views and different shader choices. The animated content demonstrates the ability of the browser to render appealing characters while the custom built player is a efficient interface for a variety of content.    
+Paper Town VR is an interactive art installation that immerses the user in a miniature 360° physical environment that can be experienced remotely through WebVR.
+
+The integral part of this project is a handcrafted artwork that adds a human touch to the experience. Utilizing a motorized camera as a scaled-down vantage point, the user can observe the scenery and goings-on of a tiny two-dimensional village as if it existed at a human scale. We created an even greater illusion of depth- using warmer, more saturated colors to make objects come forward and cooler, more muted colors fade them back. Inspired by the 1937 debut of the Disney Multi-Plane Camera, Paper Town VR enlists the effect of motion parallax to add spatial realism to the captured environment. This allows the viewer to use their natural perception of space to more intuitively understand the layout of the environment. Paper Town VR also opens up possibilities for a variety of hybrid and augmented realities, such as overlaying weather effects into the digital viewing space. Finally, since the video stream is live, it provides the opportunity to be used as a live set -- objects or characters can be added to the set to appear to the viewer in real time.
+
+This work was created to celebrate the 80th anniversary of Disney’s multi-plane camera, exploring the representation of the physical motion parallax effect in the VR space.  
 
 ## Bios	
 **[Alban Denoyel](http://denoyel.com/)** is 32-year-old French entrepreneur. He is the co-founder and CEO of Sketchfab. Prior to Sketchfab, he launched a web agency, and worked for 4 years in the 2D world of photojournalists. He graduated from ESSEC Business School (Paris, France). 

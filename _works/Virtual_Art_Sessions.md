@@ -1,12 +1,18 @@
 ---
 layout: post
-title: Lily and Snout
+title: Virtual Art Sessions
 author: Alban Denoyel and Bobby Beck
-image1: assets/works/Lily_and_Snout/Lily_and_Snout_1.jpg
-image2: assets/works/Lily_and_Snout/Lily_and_Snout_2.jpg
-image3: assets/works/Lily_and_Snout/Lily_and_Snout_3.jpg
-video1: assets/works/Lily_and_Snout/Lily_and_Snout-h264.mp4
-video-poster: assets/works/Lily_and_Snout/Lily_and_Snout-poster.png
+titleUnderscored: Virtual_Art_Sessions
+baselocation: assets/works/
+image: assets/works/Virtual_Art_Sessions/Virtual_Art_Sessions_1.jpg
+images:
+- Virtual_Art_Sessions_1.jpg
+- Virtual_Art_Sessions_2.jpg
+- Virtual_Art_Sessions_3.jpg
+video-poster: Virtual_Art_Sessions-poster.png
+videos: 
+- Virtual_Art_Sessions-h264.mp4
+- Virtual_Art_Sessions-vp9.webm
 work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_constraint_pitch_down=0&scrollwheel=0&autospin=0&navigation=fps&fps_speed=0&camera=0&preload=1
 ---
 

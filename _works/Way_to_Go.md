@@ -1,19 +1,23 @@
 ---
 layout: post
-title: Lily and Snout
-author: Alban Denoyel and Bobby Beck
-image1: assets/works/Lily_and_Snout/Lily_and_Snout_1.jpg
-image2: assets/works/Lily_and_Snout/Lily_and_Snout_2.jpg
-image3: assets/works/Lily_and_Snout/Lily_and_Snout_3.jpg
-video1: assets/works/Lily_and_Snout/Lily_and_Snout-h264.mp4
-video-poster: assets/works/Lily_and_Snout/Lily_and_Snout-poster.png
-work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_constraint_pitch_down=0&scrollwheel=0&autospin=0&navigation=fps&fps_speed=0&camera=0&preload=1
+title: Way To Go
+author: Vincent Morisset, Caroline Robert, Édouard Lanctôt-Benoit and Philippe Lambert
+titleUnderscored: Way_To_Go
+baselocation: assets/works/
+image: assets/works/Way_To_Go/Way_To_Go_1.jpg
+images:
+- Way_To_Go_1.jpg
+- Way_To_Go_2.jpg
+- Way_To_Go_3.jpg
+video-poster: Way_To_Go-poster.png
+videos: 
+- Way_To_Go-h264.mp4
+- Way_To_Go-vp9.webm
+work-url: http://a-way-to-go.com
 ---
 
 
 <h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Click to Experience</a></h2>
-
-***Note**: If the initial camera angle doesn't start off right in Lily and Snout you may have to first click the question mark (?) icon then "Reset Camera View."*
 
 <div class="box" markdown="1">
 
@@ -44,7 +48,7 @@ work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_co
 <div class="box" markdown="1">
 
 ## Description
-*Lily & Snout* by Alban Denoyel and Bobby Beck is a WebVR short animation. It is the result of a partnership by the two companies Sketchfab and Artella. They present a fully hosted player on the web that can be experienced in VR on any headset. The project demonstrates the potential for vieweing animated content on the web where the viewer takes control of the camera and even provides a glimpse of the creation processs while expreiencing the content by allowing wireframe views and different shader choices. The animated content demonstrates the ability of the browser to render appealing characters while the custom built player is a efficient interface for a variety of content.    
+Way to Go is an interactive experience for human beings between 5 and 105 years old. Maybe it lasts six minutes; maybe it lasts forever. Way to Go is ready for your web browser and willing to go VR, if you're Rift-y. It is like a grey squirrel balanced on a branch, fearless. Made by Vincent Morisset, Caroline Robert, Édouard Lanctôt-Benoit and the studio AATOAA, visionary creators of BLA BLA and Arcade Fire's award-winning Just A Reflektor. Produced by the National Film Board of Canada, co-produced by France Televisions, with a mesmerizing soundtrack by Philippe Lambert, it is a game and a solace and an alarm, a wake-up call to the hazards of today. At a moment when we have access to so much, and see so little, Way to Go will remind you of all that lies before you, within you, in the luscious, sudden pleasure of discovery.   
 
 ## Bios	
 **[Alban Denoyel](http://denoyel.com/)** is 32-year-old French entrepreneur. He is the co-founder and CEO of Sketchfab. Prior to Sketchfab, he launched a web agency, and worked for 4 years in the 2D world of photojournalists. He graduated from ESSEC Business School (Paris, France). 

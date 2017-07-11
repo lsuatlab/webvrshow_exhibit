@@ -3,17 +3,21 @@ layout: post
 title: Dust
 author: Mária Júdová, Andrej Boleslavský and Miles Whittaker
 titleUnderscored: Dust
-image: assets/works/Lily_and_Snout/Lily_and_Snout_1.jpg
-video: assets/works/Lily_and_Snout/Lily_and_Snout-h264.mp4
-video-vp9: assets/works/Lily_and_Snout/Lily_and_Snout-vp9.webm
-video-poster: assets/works/Lily_and_Snout/Lily_and_Snout-poster.png
-work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_constraint_pitch_down=0&scrollwheel=0&autospin=0&navigation=fps&fps_speed=0&camera=0&preload=1
+baselocation: assets/works/
+image: assets/works/Dust/Dust_1.jpg
+images:
+- Dust_1.jpg
+- Dust_2.jpg
+- Dust_3.jpg
+video-poster: Dust-poster.png
+videos: 
+- Dust-h264.mp4
+- Dust-vp9.webm
+work-url: http://vrdust.org.uk/
 ---
 
 
 <h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Click to Experience</a></h2>
-
-***Note**: If the initial camera angle doesn't start off right in Lily and Snout you may have to first click the question mark (?) icon then "Reset Camera View."*
 
 <div class="box" markdown="1">
 
@@ -44,11 +48,21 @@ work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_co
 <div class="box" markdown="1">
 
 ## Description
-*Lily & Snout* by Alban Denoyel and Bobby Beck is a WebVR short animation. It is the result of a partnership by the two companies Sketchfab and Artella. They present a fully hosted player on the web that can be experienced in VR on any headset. The project demonstrates the potential for vieweing animated content on the web where the viewer takes control of the camera and even provides a glimpse of the creation processs while expreiencing the content by allowing wireframe views and different shader choices. The animated content demonstrates the ability of the browser to render appealing characters while the custom built player is a efficient interface for a variety of content.    
+Dust is an immersive, virtual reality experience that aims to transform the way people see and experience contemporary dance. It is an innovative project exploring new forms of engaging the audience and creating the narratives through the creative partnership between performing arts and new media. 
+
+The piece is inspired the fact that every element on Earth was formed at the heart of a stardust, so our bodies were. Drawing inspiration from these eternal particles being part of our bodies just for incredibly short moment, as well as the motif of the unthinkable world expressed by book of philosophy In the Dust Of This Planet by Eugene Thacker, Dust seeks to reimagine our perception of body, space and time with the use of digital technologies
+
+Dust aims to transform the way people see and experience contemporary dance with the use of digital technologies. It immerses the audience in a virtual reality environment which has been created by volumetric capturing. The audience will use virtual reality (VR) headsets to place themselves in the immediate presence of the dancer and within a unique visual and aural scenario. The resulting effect is exhilarating, allowing the audience to experience the work from different perspectives and within the space where the dance is happening. It will be dance as no audience member has ever experienced before. Dust is a demonstration of what dance, performance, film and sound could become in the future of VR.
+
+Music for the project was exclusively produced by Miles Whittaker from Demdike Stare.
+
+Dust is an installation for room-scale VR accompanied by a preview interactive website supporting WebVR.
+
+Website preview version of the experience was made with Three.js and our custom toolsets for recording and converting the volumetric video stream. We published part of the tool as an open-source.
+
+Dust has been produced by Carmen Salas with the support of the Arts Council of England.   
 
 ## Bios	
-**[Alban Denoyel](http://denoyel.com/)** is 32-year-old French entrepreneur. He is the co-founder and CEO of Sketchfab. Prior to Sketchfab, he launched a web agency, and worked for 4 years in the 2D world of photojournalists. He graduated from ESSEC Business School (Paris, France). 
-
-**[Bobby Beck](https://twitter.com/bobbyboombeck)** is the CEO and cofounder of the online animation school Animation Mentor, and online collaboration platform Artella. He is a former Pixar animator.
+Mária Júdová and Andrej Boleslavský are Prague-based independent artists and who been investigating the creative potential of technology for over a decade. Their work combines the exploration of technologically informed dance practices with participatory performances, body movement, time and space. They are interested in applying the choreographic thinking to practice of digital artists and vice versa, as they believe that it leads to the creation of richer and more meaningful experiences. Therefore they often find themselves in close collaboration with performers, dancers and choreographers, trying to understand better the principles behind the creation of the movement as well as sharing our own creative practices. Miles Whittaker is one of the foremost figures in British experimental electronic music of the early 21st century. Operating solo under a slew of aliases and as a member of the cult acts Pendle Coven and Demdike Stare, he produced some of the most intriguing and forward-thinking sounds around, drawing on his deep love of electronic music in all its forms. Whittaker was first exposed to dance music through attending club nights and illegal raves as a teenager in and around the small town near Manchester where he grew up.
 
 </div>

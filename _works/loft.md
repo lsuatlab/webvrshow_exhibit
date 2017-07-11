@@ -2,18 +2,22 @@
 layout: post
 title: loft
 author: Andrew Burrell
-image1: assets/works/Lily_and_Snout/Lily_and_Snout_1.jpg
-image2: assets/works/Lily_and_Snout/Lily_and_Snout_2.jpg
-image3: assets/works/Lily_and_Snout/Lily_and_Snout_3.jpg
-video1: assets/works/Lily_and_Snout/Lily_and_Snout-h264.mp4
-video-poster: assets/works/Lily_and_Snout/Lily_and_Snout-poster.png
-work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_constraint_pitch_down=0&scrollwheel=0&autospin=0&navigation=fps&fps_speed=0&camera=0&preload=1
+titleUnderscored: loft
+baselocation: assets/works/
+image: assets/works/loft/loft_1.jpg
+images:
+- loft_1.jpg
+- loft_2.jpg
+- loft_3.jpg
+video-poster: loft-poster.png
+videos: 
+- loft-h264.mp4
+- loft-vp9.webm
+work-url: http://loft.miscellanea.com
 ---
 
 
 <h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Click to Experience</a></h2>
-
-***Note**: If the initial camera angle doesn't start off right in Lily and Snout you may have to first click the question mark (?) icon then "Reset Camera View."*
 
 <div class="box" markdown="1">
 
@@ -44,11 +48,15 @@ work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_co
 <div class="box" markdown="1">
 
 ## Description
-*Lily & Snout* by Alban Denoyel and Bobby Beck is a WebVR short animation. It is the result of a partnership by the two companies Sketchfab and Artella. They present a fully hosted player on the web that can be experienced in VR on any headset. The project demonstrates the potential for vieweing animated content on the web where the viewer takes control of the camera and even provides a glimpse of the creation processs while expreiencing the content by allowing wireframe views and different shader choices. The animated content demonstrates the ability of the browser to render appealing characters while the custom built player is a efficient interface for a variety of content.    
+‘Loft’ uses gaze based navigation, use the pink cursor to look and select the ‘start’ icon, then use the same technique to gaze at the translucent pink diamonds that will appear and navigate through the space.
+
+‘Loft’ is a webVR narrative experience. It consists of a self contained environment that plays out for the viewer based on its own logic. With limited agency granted to them, the viewer’s role will initially feel like one of pure observations, but as the world unfolds around them, they will find that their point of observation, and how they choose to navigate the space, will make critical differences to how they experience the narrative and logic of this world. 
+
+As well as investigating ways of presenting fragmented and abstract narratives within virtual reality, ‘Loft’ explores an unusual aspect of virtual reality technology in its ability to be both immersive and distancing at the same time. It intentionally highlights the disembodied “head in a jar” feeling, while at the same time providing an abstract environment that invites exploration and immersion and the potential for a more visceral reaction to the space.
+
+On initiating the work, a number of ‘virtual seeds’ are randomly spread around the environment, and begin to grow vertically. At the same time an entity begins to fly through the space, exploring its own new environment. As the seeds mature they will flower, attracting the flying entity, which will deliver fragments of spatialise audio narrative to each flower as it visits them. This flowers will eventually die and with them the fragment of audio. Over a period of approximately 6 to 7 minutes the world will come to life and then return to a state of quiet. The viewer can explore the resulting audio environment by using a look navigation technique. By looking at the translucent pink diamonds in the space they will move towards them and be able to navigate throughout the environment, and by doing so mixing the spatialised narrative that is forming around them into their own discreet narrative.    
 
 ## Bios	
-**[Alban Denoyel](http://denoyel.com/)** is 32-year-old French entrepreneur. He is the co-founder and CEO of Sketchfab. Prior to Sketchfab, he launched a web agency, and worked for 4 years in the 2D world of photojournalists. He graduated from ESSEC Business School (Paris, France). 
-
-**[Bobby Beck](https://twitter.com/bobbyboombeck)** is the CEO and cofounder of the online animation school Animation Mentor, and online collaboration platform Artella. He is a former Pixar animator.
+Dr Andrew Burrell is a new media artist, writer and educator working with emerging technologies in the realms of real time 3d, interactive installation and networked environments. His work investigates the relationship between imagined and remembered narrative and the constitution of identity, and demonstrates an ongoing creative and thematic interest in the multi-layered biological and technological encoding of human subjectivity. His practice revolves around the collection, writing and representation of narrative ‘fictions’ and the interplay of art, philosophy, technology and the life-sciences, and challenges accounts of the self as being both continuous and linear. His networked projects in virtual and augmented environments have received international recognition.
 
 </div>

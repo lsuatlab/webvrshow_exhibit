@@ -2,19 +2,22 @@
 layout: post
 title: Illy a Primitive Intelligence
 author: Remzi Yagiz Mungan
-image1: assets/works/Lily_and_Snout/Lily_and_Snout_1.jpg
-image2: assets/works/Lily_and_Snout/Lily_and_Snout_2.jpg
-image3: assets/works/Lily_and_Snout/Lily_and_Snout_3.jpg
-video1: assets/works/Lily_and_Snout/Lily_and_Snout-h264.mp4
-video1-vp9: assets/works/Lily_and_Snout/Lily_and_Snout-vp9.mkv
-video-poster: assets/works/Lily_and_Snout/Lily_and_Snout-poster.png
-work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_constraint_pitch_down=0&scrollwheel=0&autospin=0&navigation=fps&fps_speed=0&camera=0&preload=1
+titleUnderscored: Illy_a_Primitive_Intelligence
+baselocation: assets/works/
+image: assets/works/Illy_a_Primitive_Intelligence/Illy_a_Primitive_Intelligence_1.jpg
+images:
+- Illy_a_Primitive_Intelligence_1.jpg
+- Illy_a_Primitive_Intelligence_2.jpg
+- Illy_a_Primitive_Intelligence_3.jpg
+video-poster: Illy_a_Primitive_Intelligence-poster.png
+videos: 
+- Illy_a_Primitive_Intelligence-h264.mp4
+- Illy_a_Primitive_Intelligence-vp9.webm
+work-url: https://illy-pi.github.io
 ---
 
 
 <h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Click to Experience</a></h2>
-
-***Note**: If the initial camera angle doesn't start off right in Lily and Snout you may have to first click the question mark (?) icon then "Reset Camera View."*
 
 <div class="box" markdown="1">
 
@@ -45,11 +48,13 @@ work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_co
 <div class="box" markdown="1">
 
 ## Description
-*Lily & Snout* by Alban Denoyel and Bobby Beck is a WebVR short animation. It is the result of a partnership by the two companies Sketchfab and Artella. They present a fully hosted player on the web that can be experienced in VR on any headset. The project demonstrates the potential for vieweing animated content on the web where the viewer takes control of the camera and even provides a glimpse of the creation processs while expreiencing the content by allowing wireframe views and different shader choices. The animated content demonstrates the ability of the browser to render appealing characters while the custom built player is a efficient interface for a variety of content.    
+Illy is a semi-intelligent system powered by Web Audio API, WebGL, WebVR and sometimes Kinect. It understands what it is spoken to in a primitive way and responds to us in a primitive, emotional and simple way both sonically and visually. As opposed to the cutting edge AIs and interfaces like Siri, Cortana, OK Google, Illy does not understand natural language, defined commands or even language at all. It does not respond using fine-tuned intonations to deliver the information gathered from the cloud, it is not integrated with any services. It does not show maps, or pictures about the topic. Instead, as an antithesis, it only tries to understand the sonic properties of the spoken language like the attack, loudness, roughness and pitch. And responds sonically, in a non-language, musical, psychoacoustical way: without the symbolic sounds that we call language but with tonal sounds, timbre, frequency, consonance and rhythm. Visually, it shapes the visuals focusing on size, speed and color determined by its understanding and creating an abstract visual. Ignoring the symbolic data, like an infant, Illy tries to understand the emotion in the human voice - free from symbols of the language - and responds you with your emotions like sonic mirror to the soul. The aimed interactive experience brings questions about human sound and human-machine interface that we sometimes ignore in this age of information. 
 
-## Bios	
-**[Alban Denoyel](http://denoyel.com/)** is 32-year-old French entrepreneur. He is the co-founder and CEO of Sketchfab. Prior to Sketchfab, he launched a web agency, and worked for 4 years in the 2D world of photojournalists. He graduated from ESSEC Business School (Paris, France). 
+With WebVR, not only Illy can be accessible with a click but also Illy leaves the confines of 2D-screens and becomes ‘the ideal’ AI, floating around the space always open to conversing and not helping with any of our tasks including setting alarms, playing music or calling a cab. Instead, Illy gives us a naïve communication channel that we can establish with an infant or an animal. 
 
-**[Bobby Beck](https://twitter.com/bobbyboombeck)** is the CEO and cofounder of the online animation school Animation Mentor, and online collaboration platform Artella. He is a former Pixar animator.
+Finally, as a web project, Illy will continue to evolve musically and visually and will add new tricks to its skill set while keeping the focus of the experience same.   
+
+## Bio	
+R. Yagiz Mungan is an interdisciplinary developer/artist/scholar working with the concepts of interaction, VR/AR, games, web, mobile, algorithmic generation of audiovisual systems, sound, and interactive music. His recent individual works, which investigate the relationship between technology and our daily lives, have been shown in various venues and events in the Bay Area such as Soundwave Biennale, 3D Web Fest and CODAME. Yagiz is currently working at AKQA creating interactive experiences. He holds MFA in Electronic and Time-Based Art at Purdue University and MS in computer engineering from Chalmers University of Technology
 
 </div>
