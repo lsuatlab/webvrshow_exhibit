@@ -2,11 +2,17 @@
 layout: post
 title: Bear 71 VR
 author: Leanne Allison and Jeremy Mendes
-titleUnderscored: Bear_71_VR
-image: assets/works/Bear_71_VR/Bear_71_VR_1.jpg
-video: assets/works/Bear_71_VR/Bear_71_VR-h264.mp4
-video-vp9: assets/works/Bear_71_VR/Bear_71_VR-vp9.webm
-video-poster: assets/works/Bear_71_VR/Bear_71_VR-poster.png
+titleUnderscored: Lily_and_Snout
+baselocation: assets/works/
+image: assets/works/Lily_and_Snout/Lily_and_Snout_1.jpg
+images:
+- Lily_and_Snout_1.jpg
+- Lily_and_Snout_2.jpg
+- Lily_and_Snout_3.jpg
+video-poster: Lily_and_Snout-poster.png
+videos: 
+- Lily_and_Snout-h264.mp4
+- Lily_and_Snout-vp9.webm
 work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_constraint_pitch_down=0&scrollwheel=0&autospin=0&navigation=fps&fps_speed=0&camera=0&preload=1
 ---
 
