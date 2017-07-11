@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Virtual Art Sessions
-author: Alban Denoyel and Bobby Beck
+author: Google Data Arts Team
 titleUnderscored: Virtual_Art_Sessions
 baselocation: assets/works/
 image: assets/works/Virtual_Art_Sessions/Virtual_Art_Sessions_1.jpg
