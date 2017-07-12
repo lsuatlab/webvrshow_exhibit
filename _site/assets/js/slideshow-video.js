@@ -1,0 +1,1 @@
+var myPlayer = videojs('work-video', { fluid: true });
