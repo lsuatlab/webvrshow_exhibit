@@ -16,34 +16,7 @@ videos:
 work-url: https://illy-pi.github.io
 ---
 
-
 <h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Click to Experience</a></h2>
-
-<div class="box" markdown="1">
-
-## Requirements
-
-|                     |[Edge][1]|[Chrome][2]|[Chromium][3]|[Firefox][4]|[Firefox Nightly][5]|[Safari][6]  
-|---------------------|:-------:|:---------:|:-----------:|:----------:|:------------------:|:---------:
-|[Desktop (360)][7]   |✔        |✔          |✔            |✔           |✔                   |✔     
-|[Google Cardboard][8]|         |✔          |             |✔           |                    |✔     
-|[Oculus Rift][9]     |         |           |✔(Windows)   |            |✔(Windows)          |      
-|[HTC Vive][10]       |         |           |✔(Windows)   |            |✔(Windows)          | 
-  
-[1]:instructions.html#edge-ins
-[2]:instructions.html#chrome-ins 
-[3]:instructions.html#chromium-ins 
-[4]:instructions.html#firefox-ins 
-[5]:instructions.html#firefoxnightly-ins 
-[6]:instructions.html#safari-ins 
-[7]:instructions.html#desktop-ins
-[8]:https://vr.google.com/cardboard/
-[9]:https://www.oculus.com/rift/
-[10]:https://www.vive.com/
-
-***Note:** Viewing content in 360-degrees on your **Desktop** or using a mobile device with **Google Cardboard** does not usually require any special browser setup. For instructions on how to setup your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive** click on the browser name above. The **Samsung Gear VR** and **Google Daydream** are also good choices for experiencing WebVR. If the piece works on Google Carboard it is likely to work on these as well.*
-
-</div>
 
 <div class="box" markdown="1">
 
@@ -56,5 +29,31 @@ Finally, as a web project, Illy will continue to evolve musically and visually a
 
 ## Bio	
 R. Yagiz Mungan is an interdisciplinary developer/artist/scholar working with the concepts of interaction, VR/AR, games, web, mobile, algorithmic generation of audiovisual systems, sound, and interactive music. His recent individual works, which investigate the relationship between technology and our daily lives, have been shown in various venues and events in the Bay Area such as Soundwave Biennale, 3D Web Fest and CODAME. Yagiz is currently working at AKQA creating interactive experiences. He holds MFA in Electronic and Time-Based Art at Purdue University and MS in computer engineering from Chalmers University of Technology
+
+</div>
+
+<div class="box" markdown="1">
+
+## Requirements
+
+|                     |[Chrome][2]|[Firefox][4]|[Safari][6]  
+|---------------------|:---------:|:----------:|:---------:
+|[Desktop (360)][7]   |✔          |✔           |✔     
+|[Google Cardboard][8]|✔          |✔           |✔     
+|[Oculus Rift][9]     |?          |?           |?      
+|[HTC Vive][10]       |?          |?           |?
+  
+[1]:instructions.html#edge-ins
+[2]:instructions.html#chrome-ins 
+[3]:instructions.html#chromium-ins 
+[4]:instructions.html#firefox-ins 
+[5]:instructions.html#firefoxnightly-ins 
+[6]:instructions.html#safari-ins 
+[7]:instructions.html#desktop-ins
+[8]:https://vr.google.com/cardboard/
+[9]:https://www.oculus.com/rift/
+[10]:https://www.vive.com/
+
+***Note:** Viewing content in 360-degrees on your **Desktop** or using a mobile device with **Google Cardboard** does not usually require any special browser setup. For instructions on how to setup your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive** click on the browser name above. The **Samsung Gear VR** and **Google Daydream** are also good choices for experiencing WebVR. If the piece works on Google Cardboard it is likely going to work on these as well.*
 
 </div>

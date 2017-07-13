@@ -1,4 +1,5 @@
 **To Do**
+- [ ] make video autoplay
 - [ ] upload vidoes to DAC YouTube
 - [ ] add google analytics
 - [ ] add a separate credits screen with

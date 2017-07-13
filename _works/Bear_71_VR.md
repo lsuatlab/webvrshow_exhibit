@@ -9,10 +9,11 @@ images:
 - Bear_71_VR_1.jpg
 - Bear_71_VR_2.jpg
 - Bear_71_VR_3.jpg
-video-poster: Bear_71_VR-poster.png
 videos: 
-- {img: "Bear_71_VR-poster.png", h5: "Bear_71_VR-h264.mp4", yt: "https://www.youtube.com/watch?v=OZK27hsCcDo"}
-- {img: "Bear_71_VR-poster-yt.png", yt: "https://www.youtube.com/watch?v=9tEkDonLzyw"}
+  - im: "Bear_71_VR-poster.png" 
+    h5: "Bear_71_VR-h264.mp4" 
+  - im: "Bear_71_VR-poster-yt.png" 
+    yt: "https://www.youtube.com/watch?v=9tEkDonLzyw"
 work-url: https://bear71vr.nfb.ca
 ---
 

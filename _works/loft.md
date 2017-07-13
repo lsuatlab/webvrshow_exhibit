@@ -16,34 +16,7 @@ videos:
 work-url: http://loft.miscellanea.com
 ---
 
-
 <h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Click to Experience</a></h2>
-
-<div class="box" markdown="1">
-
-## Requirements
-
-|                     |[Edge][1]|[Chrome][2]|[Chromium][3]|[Firefox][4]|[Firefox Nightly][5]|[Safari][6]  
-|---------------------|:-------:|:---------:|:-----------:|:----------:|:------------------:|:---------:
-|[Desktop (360)][7]   |✔        |✔          |✔            |✔           |✔                   |✔     
-|[Google Cardboard][8]|         |✔          |             |✔           |                    |✔     
-|[Oculus Rift][9]     |         |           |✔(Windows)   |            |✔(Windows)          |      
-|[HTC Vive][10]       |         |           |✔(Windows)   |            |✔(Windows)          | 
-  
-[1]:instructions.html#edge-ins
-[2]:instructions.html#chrome-ins 
-[3]:instructions.html#chromium-ins 
-[4]:instructions.html#firefox-ins 
-[5]:instructions.html#firefoxnightly-ins 
-[6]:instructions.html#safari-ins 
-[7]:instructions.html#desktop-ins
-[8]:https://vr.google.com/cardboard/
-[9]:https://www.oculus.com/rift/
-[10]:https://www.vive.com/
-
-***Note:** Viewing content in 360-degrees on your **Desktop** or using a mobile device with **Google Cardboard** does not usually require any special browser setup. For instructions on how to setup your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive** click on the browser name above. The **Samsung Gear VR** and **Google Daydream** are also good choices for experiencing WebVR. If the piece works on Google Carboard it is likely to work on these as well.*
-
-</div>
 
 <div class="box" markdown="1">
 
@@ -58,5 +31,31 @@ On initiating the work, a number of ‘virtual seeds’ are randomly spread arou
 
 ## Bios	
 Dr Andrew Burrell is a new media artist, writer and educator working with emerging technologies in the realms of real time 3d, interactive installation and networked environments. His work investigates the relationship between imagined and remembered narrative and the constitution of identity, and demonstrates an ongoing creative and thematic interest in the multi-layered biological and technological encoding of human subjectivity. His practice revolves around the collection, writing and representation of narrative ‘fictions’ and the interplay of art, philosophy, technology and the life-sciences, and challenges accounts of the self as being both continuous and linear. His networked projects in virtual and augmented environments have received international recognition.
+
+</div>
+
+<div class="box" markdown="1">
+
+## Requirements
+
+|                     |[Chrome][2]|[Firefox][4]|[Safari][6]  
+|---------------------|:---------:|:----------:|:---------:
+|[Desktop (360)][7]   |✔          |✔           |✔     
+|[Google Cardboard][8]|✔          |✔           |✔     
+|[Oculus Rift][9]     |?          |?           |?      
+|[HTC Vive][10]       |?          |?           |?
+  
+[1]:instructions.html#edge-ins
+[2]:instructions.html#chrome-ins 
+[3]:instructions.html#chromium-ins 
+[4]:instructions.html#firefox-ins 
+[5]:instructions.html#firefoxnightly-ins 
+[6]:instructions.html#safari-ins 
+[7]:instructions.html#desktop-ins
+[8]:https://vr.google.com/cardboard/
+[9]:https://www.oculus.com/rift/
+[10]:https://www.vive.com/
+
+***Note:** Viewing content in 360-degrees on your **Desktop** or using a mobile device with **Google Cardboard** does not usually require any special browser setup. For instructions on how to setup your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive** click on the browser name above. The **Samsung Gear VR** and **Google Daydream** are also good choices for experiencing WebVR. If the piece works on Google Cardboard it is likely going to work on these as well.*
 
 </div>

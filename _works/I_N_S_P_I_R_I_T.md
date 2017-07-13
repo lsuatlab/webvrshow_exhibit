@@ -36,12 +36,12 @@ Now, my goal is to create innovative projects that demonstrate that through the 
 
 ## Requirements
 
-|                     |[Edge][1]|[Chrome][2]|[Chromium][3]|[Firefox][4]|[Firefox Nightly][5]|[Safari][6]  
-|---------------------|:-------:|:---------:|:-----------:|:----------:|:------------------:|:---------:
-|[Desktop (360)][7]   |✔        |✔          |✔            |✔           |✔                   |✔     
-|[Google Cardboard][8]|         |✔          |             |✔           |                    |✔     
-|[Oculus Rift][9]     |         |           |✔(Windows)   |            |✔(Windows)          |      
-|[HTC Vive][10]       |         |           |✔(Windows)   |            |✔(Windows)          | 
+|                     |[Chrome][2]|[Firefox][4]|[Safari][6]  
+|---------------------|:---------:|:----------:|:---------:
+|[Desktop (360)][7]   |✔          |✔           |✔     
+|[Google Cardboard][8]|✔          |✔           |✔     
+|[Oculus Rift][9]     |?          |?           |?      
+|[HTC Vive][10]       |?          |?           |?
   
 [1]:instructions.html#edge-ins
 [2]:instructions.html#chrome-ins 
@@ -54,6 +54,6 @@ Now, my goal is to create innovative projects that demonstrate that through the 
 [9]:https://www.oculus.com/rift/
 [10]:https://www.vive.com/
 
-***Note:** Viewing content in 360-degrees on your **Desktop** or using a mobile device with **Google Cardboard** does not usually require any special browser setup. For instructions on how to setup your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive** click on the browser name above. The **Samsung Gear VR** and **Google Daydream** are also good choices for experiencing WebVR. If the piece works on Google Carboard it is likely to work on these as well.*
+***Note:** Viewing content in 360-degrees on your **Desktop** or using a mobile device with **Google Cardboard** does not usually require any special browser setup. For instructions on how to setup your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive** click on the browser name above. The **Samsung Gear VR** and **Google Daydream** are also good choices for experiencing WebVR. If the piece works on Google Cardboard it is likely going to work on these as well.*
 
 </div>

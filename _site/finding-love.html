@@ -122,18 +122,20 @@
 	        			<img src="./assets/works/Finding_Love/Finding_Love_3.jpg" alt="image" />
 	        		</li>
 				
-				
-				
-				
 
 				
 				
-		       	
-		       	
+				
+				
+				
+		    
+		    
 
-				<li data-thumb="./assets/works/Finding_Love/">
-      				<video class="video-js vjs-default-skin vjs-big-play-centered" preload="auto" poster="./assets/works/Finding_Love/" data-setup='{ "techOrder": ["html5", "youtube"], "fluid": "true", "controls": "true"}'>
+				<li data-thumb="./assets/works/Finding_Love/Finding_Love-poster.png">
+      				<video class="video-js vjs-default-skin vjs-big-play-centered" preload="auto" poster="./assets/works/Finding_Love/Finding_Love-poster.png" data-setup='{ "techOrder": ["html5", "youtube"], "fluid": "true", "controls": "true"}'>
 
+		       			
+		       			<source src="./assets/works/Finding_Love/Finding_Love-h264.mp4" type="video/mp4">
 		       			
 		       			
 		       			
@@ -144,10 +146,7 @@
 		    		</video>
   				</li>
 				    
-  				
-
-
-  				
+  				  				
 
 			</ul>
 
@@ -159,17 +158,28 @@
 
 <div class="box">
 
+  <h2 id="description">Description</h2>
+  <p>Finding Love is a fully interactive, Virtual Reality story that transforms emotions into art. Moving through five distinct chapters, ones experiences a journey made from abstract visuals and sounds. In the story, the user’s avatar is a gem that is paired with another gem of a different color and shape.</p>
+
+  <p>When a user begins their experience they are matched to another user over a WebSocket connection to a matching server. When a match is made, the two users connect directly to each other over WebRTC and exchange information such as location and input data in order to see the other user’s motion reflected in the partner gem. At the end of the experience, the user learns that the other gem was another user sharing the experience at the same time and their approximate location is revealed.</p>
+
+  <p>The makers state “Our desire in this project, as well as many others, is to connect people in simple ways that make a meaningful impression. The other gem’s movements in the experience are directly impacted by the partner’s input whether desktop, mobile, or VR.”</p>
+
+  <h2 id="bios">Bios</h2>
+  <p>…</p>
+
+</div>
+
+<div class="box">
+
   <h2 id="requirements">Requirements</h2>
 
   <table>
     <thead>
       <tr>
         <th> </th>
-        <th style="text-align: center"><a href="instructions.html#edge-ins">Edge</a></th>
         <th style="text-align: center"><a href="instructions.html#chrome-ins">Chrome</a></th>
-        <th style="text-align: center"><a href="instructions.html#chromium-ins">Chromium</a></th>
         <th style="text-align: center"><a href="instructions.html#firefox-ins">Firefox</a></th>
-        <th style="text-align: center"><a href="instructions.html#firefoxnightly-ins">Firefox Nightly</a></th>
         <th style="text-align: center"><a href="instructions.html#safari-ins">Safari</a></th>
       </tr>
     </thead>
@@ -179,51 +189,29 @@
         <td style="text-align: center">✔</td>
         <td style="text-align: center">✔</td>
         <td style="text-align: center">✔</td>
-        <td style="text-align: center">✔</td>
-        <td style="text-align: center">✔</td>
-        <td style="text-align: center">✔</td>
       </tr>
       <tr>
         <td><a href="https://vr.google.com/cardboard/">Google Cardboard</a></td>
-        <td style="text-align: center"> </td>
         <td style="text-align: center">✔</td>
-        <td style="text-align: center"> </td>
         <td style="text-align: center">✔</td>
-        <td style="text-align: center"> </td>
         <td style="text-align: center">✔</td>
       </tr>
       <tr>
         <td><a href="https://www.oculus.com/rift/">Oculus Rift</a></td>
-        <td style="text-align: center"> </td>
-        <td style="text-align: center"> </td>
-        <td style="text-align: center">✔(Windows)</td>
-        <td style="text-align: center"> </td>
-        <td style="text-align: center">✔(Windows)</td>
-        <td style="text-align: center"> </td>
+        <td style="text-align: center">✔</td>
+        <td style="text-align: center">✔</td>
+        <td style="text-align: center">?</td>
       </tr>
       <tr>
         <td><a href="https://www.vive.com/">HTC Vive</a></td>
-        <td style="text-align: center"> </td>
-        <td style="text-align: center"> </td>
-        <td style="text-align: center">✔(Windows)</td>
-        <td style="text-align: center"> </td>
-        <td style="text-align: center">✔(Windows)</td>
-        <td style="text-align: center"> </td>
+        <td style="text-align: center">✔</td>
+        <td style="text-align: center">✔</td>
+        <td style="text-align: center">?</td>
       </tr>
     </tbody>
   </table>
 
-  <p><em><strong>Note:</strong> Viewing content in 360-degrees on your <strong>Desktop</strong> or using a mobile device with <strong>Google Cardboard</strong> does not usually require any special browser setup. For instructions on how to setup your browser to work with a VR headset like the <strong>Oculus Rift</strong> or <strong>HTC Vive</strong> click on the browser name above. The <strong>Samsung Gear VR</strong> and <strong>Google Daydream</strong> are also good choices for experiencing WebVR. If the piece works on Google Carboard it is likely to work on these as well.</em></p>
-
-</div>
-
-<div class="box">
-
-  <h2 id="description">Description</h2>
-  <p>Finding Love is a fully interactive, Virtual Reality story that transforms emotions into art. Moving through five distinct chapters, you experience the journey purely through visuals and sound.</p>
-
-  <h2 id="bios">Bios</h2>
-  <p>…</p>
+  <p><em><strong>Note:</strong> Viewing content in 360-degrees on your <strong>Desktop</strong> or using a mobile device with <strong>Google Cardboard</strong> does not usually require any special browser setup. For instructions on how to setup your browser to work with a VR headset like the <strong>Oculus Rift</strong> or <strong>HTC Vive</strong> click on the browser name above. The <strong>Samsung Gear VR</strong> and <strong>Google Daydream</strong> are also good choices for experiencing WebVR. If the piece works on Google Cardboard it is likely going to work on these as well.</em></p>
 
 </div>
 </p>

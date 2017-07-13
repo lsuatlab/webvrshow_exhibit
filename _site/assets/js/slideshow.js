@@ -2,6 +2,8 @@ $(document).ready(function() {
   $('#imageGallery').lightSlider({
       gallery:true,
       item:1,
+      // auto: true,
+      // pause: 5000,
       loop:true,
       enableDrag:false,
       keyPress: true,
