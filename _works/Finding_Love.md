@@ -12,7 +12,6 @@ images:
 video-poster: Finding_Love-poster.png
 videos: 
 - Finding_Love-h264.mp4
-- Finding_Love-vp9.webm
 work-url: https://findinglove.activetheory.net
 ---
 

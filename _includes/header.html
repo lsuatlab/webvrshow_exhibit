@@ -3,7 +3,7 @@
 
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{base}}/index.html" class="logo">
+	<a href="{{base}}/" class="logo">
 		<strong> {{ site.organization }}</strong> 
 		{% if page.layout == "home" %}<span>{{ site.parent }}</span>
 		{% else %}<span>{{ site.title }}</span>{% endif %}

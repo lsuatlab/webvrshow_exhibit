@@ -32,28 +32,39 @@
 				
 				{% for image in page.images %}
 	        		<li data-thumb="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ image }}">
-	        			<img src="{{base}}/{{ site.baseurl }}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ image }}" alt="image" />
+	        			<img src="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ image }}" alt="image" />
 	        		</li>
 				{% endfor %}
 				
 				{% if page.videos %}
+				{% for video in page.videos %}
+
 				<li data-thumb="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ page.video-poster }}">
-      				<video id="work-video" class="video-js" controls preload="auto" poster="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ page.video-poster }}">
-		       			{% for video in page.videos %}
-		       			{% if video contains "mp4" %}
-		       			<source src="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ video }}" type="video/mp4">
-		       			{% endif %}
-		       			{% if video contains "webm" %}
-		       			<source src="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ video }}" type="video/webm">
-		         		{% endif %}
-		         		{% endfor %}    
+      				<video class="video-js vjs-default-skin" preload="auto" poster="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ page.video-poster }}" data-setup='{ "techOrder": ["html5", "youtube"], "fluid": "true", "controls": "true"}'>
+		       			
+		       			{% assign h5video = video | map: 'h5' %}
+		       			{% assign wmvideo = video | map: 'wm' %}
+		       			{% assign ytvideo = video | map: 'yt' %}
+
+		       			{% for h in h5video %}{% if h != nil %}
+		       			<source src="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ video | map: 'h5' }}" type="video/mp4">
+		       			{% endif %}{% endfor %}
+		       			{% for h in wmvideo %}{% if h != nil %}
+		       			<source src="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ video | map: 'wm' }}" type="video/webm">
+		       			{% endif %}{% endfor %}
+		       			{% for h in ytvideo %}{% if h != nil %}
+		       			<source src="{{ video | map: 'yt' }}" type="video/youtube">
+		       			{% endif %}{% endfor %}
 		         		    <p class="vjs-no-js">
       							To view this video please enable JavaScript, and consider upgrading to a web browser that
       							supports HTML5 video</a>
     						</p>
 		    		</video>
   				</li>
+				{% endfor %}    
   				{% endif %}
+
+
   				
 
 			</ul>

@@ -6,10 +6,23 @@ $(document).ready(function() {
       enableDrag:false,
       keyPress: true,
       // thumbItem:10,
-      slideMargin:0
+      slideMargin:0, 
+    onBeforeSlide: function (el) {
+        console.log('onBeforeSlide');
+        pauseAll();
+    }
       // currentPagerPosition:'left',
   });
 });
+
+var htmlPlayer = document.getElementsByTagName('video');
+
+function pauseAll() {
+  for(var i = 0; i < htmlPlayer.length; i++){
+    htmlPlayer[i].pause();
+  }
+}
+
 
 
 
