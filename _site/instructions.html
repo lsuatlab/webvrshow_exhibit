@@ -47,7 +47,7 @@
 		    
 		
 		    
-		        <li><a href="/">Home</a></li>
+		        <li><a href=".">Home</a></li>
 	    	
 		
 		    
@@ -68,11 +68,11 @@
 		    
 		
 		    
-		        <li><a href="/information.html">Information</a></li>
+		        <li><a href="./information.html">Information</a></li>
 		    
 		
 		    
-		        <li><a href="/instructions.html">WebVR Browser Setup</a></li>
+		        <li><a href="./instructions.html">WebVR Browser Setup</a></li>
 		    
 		
 		    
@@ -99,87 +99,97 @@
                 </header>
                 <div class="content">
 
-                    Lorem ipsum dolor est
+                    
 
                 </div>
             </div>
         </section>
+    <!-- <section> -->
+    <!-- <div class="inner"> -->
+    <div id="main">
+    <section id="desktop-ins">
+<div class="inner">
+    <h2 id="desktop360">Desktop(360)</h2>
 
-    <div id="desktop-ins">&nbsp;</div>
-<div class="box">
-  <h2 id="desktop360">Desktop(360)</h2>
+    <p>Many WebVR sites allow the option for viewing content using the Desktop with a modern web browser. They often do this by providing a means for navigting in 360-degrees through panning, orbitting, and zooming with the cursor.</p>
 
-  <p>Many WebVR sites allow the option for viewing content using the Desktop with a modern web browser. They often do this by providing a means for navigting in 360-degrees through panning, orbitting, and zooming with the cursor.</p>
+    <p>To experience content in virtual reality you will need a headset like the HTC Vive, Oculus Rift, Google Cardboard, Google Daydream, or Samsung Gear VR with a WebVR enabled browser like Firefox or Chrome. It’s often a good idea to use the latest version of these browsers to take advantage of the newest features like Firefox Nightly, Chrome Canary, or a Chromium build tuned for Web VR. See the below instructions for various settings you might have to set.</p>
+  </div>
+</section>
 
-  <p>To experience content in virtual reality you will need a headset like the HTC Vive, Oculus Rift, Google Cardboard, Google Daydream, or Samsung Gear VR with a WebVR enabled browser like Firefox or Chrome. It’s often a good idea to use the latest version of these browsers to take advantage of the newest features like Firefox Nightly, Chrome Canary, or a Chromium build tuned for Web VR. See the below instructions for various settings you might have to set.</p>
+<section id="chrome-ins">
+<div class="inner">
 
-</div>
+    <h2 id="chrome">Chrome</h2>
 
-<div id="chrome-ins">&nbsp;</div>
-<div class="box">
+    <ol>
+      <li>In the address bar, open <code class="highlighter-rouge">chrome://flags#enable-webvr</code> and enable WebVR.</li>
+      <li>In the address bar, open <code class="highlighter-rouge">chrome://flags#enable-gamepad-extensions</code> and enable Gamepad Extensions.</li>
+    </ol>
 
-  <h2 id="chrome">Chrome</h2>
+  </div>
+</section>
 
-  <ol>
-    <li>In the address bar, open <code class="highlighter-rouge">chrome://flags#enable-webvr</code> and enable WebVR.</li>
-    <li>In the address bar, open <code class="highlighter-rouge">chrome://flags#enable-gamepad-extensions</code> and enable Gamepad Extensions.</li>
-  </ol>
+<section id="chromium-ins">
+<div class="inner">
 
-</div>
+    <h2 id="chromium">Chromium</h2>
 
-<div id="chromium-ins">&nbsp;</div>
-<div class="box">
+    <ol>
+      <li>Download Chromium with WebVR support from: <a href="https://webvr.info/get-chrome">https://webvr.info/get-chrome</a>.</li>
+      <li>Extract the zip file.</li>
+      <li>Launch the chrome.exe file in the folder.</li>
+      <li>In the address bar, open <code class="highlighter-rouge">chrome://flags#enable-webvr</code> and enable WebVR.</li>
+      <li>In the address bar, open <code class="highlighter-rouge">chrome://flags#enable-gamepad-extensions</code> and enable Gamepad Extensions.</li>
+      <li>Open the SteamVR application.</li>
+    </ol>
 
-  <h2 id="chromium">Chromium</h2>
+  </div>
+</section>
 
-  <ol>
-    <li>Download Chromium with WebVR support from: <a href="https://webvr.info/get-chrome">https://webvr.info/get-chrome</a>.</li>
-    <li>Extract the zip file.</li>
-    <li>Launch the chrome.exe file in the folder.</li>
-    <li>In the address bar, open <code class="highlighter-rouge">chrome://flags#enable-webvr</code> and enable WebVR.</li>
-    <li>In the address bar, open <code class="highlighter-rouge">chrome://flags#enable-gamepad-extensions</code> and enable Gamepad Extensions.</li>
-    <li>Open the SteamVR application.</li>
-  </ol>
+<section id="chromeforandroid-ins">
+<div class="inner">
 
-</div>
+    <h2 id="chrome-for-android">Chrome for Android</h2>
 
-<div id="chromeforandroid-ins">&nbsp;</div>
-<div class="box">
+    <ol>
+      <li>Download Chrome Canary on your Android</li>
+      <li>In the address bar, open <code class="highlighter-rouge">chrome://flags#enable-webvr</code> and enable WebVR.</li>
+    </ol>
 
-  <h2 id="chrome-for-android">Chrome for Android</h2>
+  </div>
+</section>
 
-  <ol>
-    <li>Download Chrome Canary on your Android</li>
-    <li>In the address bar, open <code class="highlighter-rouge">chrome://flags#enable-webvr</code> and enable WebVR.</li>
-  </ol>
+<section id="firefoxnightly-ins">
+<div class="inner">
 
-</div>
+    <h2 id="firefox-nightly">Firefox Nightly</h2>
+    <ul>
+      <li>Download from: <a href="https://www.mozilla.org/en-US/firefox/channel/desktop">https://www.mozilla.org/en-US/firefox/channel/desktop</a></li>
+    </ul>
 
-<div id="firefoxnightly-ins">&nbsp;</div>
-<div class="box">
+  </div>
+</section>
 
-  <h2 id="firefox-nightly">Firefox Nightly</h2>
-  <ol>
-    <li>Download from: <a href="https://www.mozilla.org/en-US/firefox/channel/desktop">https://www.mozilla.org/en-US/firefox/channel/desktop</a></li>
-  </ol>
+<section id="oculus-ins">
+<div class="inner">
 
-</div>
+    <h2 id="oculus-rift">Oculus Rift</h2>
 
-<div id="oculus-ins">&nbsp;</div>
-<div class="box">
+    <p>If you’re using the Oculs Rift for viewing WebVR  you may initially get a screen saying you can’t view content from “Unknown Sources.” You will need to “Enable Unknown Sources” from the Oculus settings to fix this:</p>
 
-  <h2 id="oculus-rift">Oculus Rift</h2>
+    <ol>
+      <li>Go to Oculus Application Settings &gt; General Settings</li>
+      <li>Turn on “Unkown Sources”</li>
+      <li>Use Firefox or Chromium to view content.</li>
+    </ol>
 
-  <p>If you’re using the Oculs Rift for viewing WebVR  you may initially get a screen saying you can’t view content from “Unknown Sources.” You will need to “Enable Unknown Sources” from the Oculus settings to fix this:</p>
+  </div>
+</section>
 
-  <ol>
-    <li>Go to Oculus Application Settings &gt; General Settings</li>
-    <li>Turn on “Unkown Sources”</li>
-    <li>Use Firefox or Chromium to view content.</li>
-  </ol>
-
-</div>
-
+    </div>
+    <!-- </div> -->
+    <!-- </section> -->
 
     <!-- Footer -->
 	<footer id="footer">
@@ -198,7 +208,7 @@
 			</ul>
 			<ul class="copyright">
 				<li>&copy; <a href="http://www.siggraph.org" >ACM SIGGRAPH</a> <a href="http://www.siggraph.org/connect/digital-arts">Digital Arts Community</a></li>
-				<li><a href="landing.html" target="_blank">Credits</a></li>
+				<li><a href="information.html#credits" target="_blank">Credits</a></li>
 			</ul>
 		</div>
 	</footer>
