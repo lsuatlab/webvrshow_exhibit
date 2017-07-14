@@ -9,10 +9,9 @@ images:
 - Way_to_Go_1.jpg
 - Way_to_Go_2.jpg
 - Way_to_Go_3.jpg
-video-poster: Way_to_Go-poster.png
 videos: 
-- Way_to_Go-h264.mp4
-- Way_to_Go-vp9.webm
+- im: Way_to_Go-poster.png
+  h5: Way_to_Go-h264.mp4
 work-url: http://a-way-to-go.com
 ---
 

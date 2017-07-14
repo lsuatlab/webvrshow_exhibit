@@ -20,7 +20,7 @@ work-url: https://findinglove.activetheory.net
 <div class="box" markdown="1">
 
 ## Description
-Finding Love is a fully interactive, Virtual Reality story that transforms emotions into art. Moving through five distinct chapters, ones experiences a journey made from abstract visuals and sounds. In the story, the user’s avatar is a gem that is paired with another gem of a different color and shape.
+*Finding Love* is a fully interactive, Virtual Reality story that transforms emotions into art. Moving through five distinct chapters, ones experiences a journey made from abstract visuals and sounds. In the story, the user’s avatar is a gem that is paired with another gem of a different color and shape.
 
 When a user begins their experience they are matched to another user over a WebSocket connection to a matching server. When a match is made, the two users connect directly to each other over WebRTC and exchange information such as location and input data in order to see the other user’s motion reflected in the partner gem. At the end of the experience, the user learns that the other gem was another user sharing the experience at the same time and their approximate location is revealed.
 

@@ -22,7 +22,7 @@ work-url: https://bear71vr.nfb.ca
 <div class="box" markdown="1">
 
 ## Description
-Originally launched in 2012, Bear 71 is an interactive multi-user online experience told from the point of view of an omniscient female grizzly bear―dubbed “Bear 71” by the park rangers who track her. Created by Jeremy Mendes, Leanne Allison and the [NFB](http://nfb.ca), Bear 71 explores how we coexist with wildlife in the age of networks, surveillance, and digital information en mass.
+Originally launched in 2012, *Bear 71* is an interactive multi-user online experience told from the point of view of an omniscient female grizzly bear―dubbed “Bear 71” by the park rangers who track her. Created by Jeremy Mendes, Leanne Allison and the [NFB](http://nfb.ca), Bear 71 explores how we coexist with wildlife in the age of networks, surveillance, and digital information en mass.
 
 Developed using open platform WebVR technology for greater accessibility, Bear 71 VR is available in VR using a compatible headset, and can also be viewed as a 2D interactive experience on a traditional monitor.
 

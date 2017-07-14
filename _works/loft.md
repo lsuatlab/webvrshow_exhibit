@@ -20,7 +20,7 @@ work-url: http://loft.miscellanea.com
 <div class="box" markdown="1">
 
 ## Description
-‘Loft’ uses gaze based navigation, use the pink cursor to look and select the ‘start’ icon, then use the same technique to gaze at the translucent pink diamonds that will appear and navigate through the space.
+*Loft* uses gaze based navigation, use the pink cursor to look and select the ‘start’ icon, then use the same technique to gaze at the translucent pink diamonds that will appear and navigate through the space.
 
 ‘Loft’ is a webVR narrative experience. It consists of a self contained environment that plays out for the viewer based on its own logic. With limited agency granted to them, the viewer’s role will initially feel like one of pure observations, but as the world unfolds around them, they will find that their point of observation, and how they choose to navigate the space, will make critical differences to how they experience the narrative and logic of this world. 
 
