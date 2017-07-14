@@ -33,15 +33,14 @@ The makers state "Our desire in this project, as well as many others, is to conn
 
 <div class="box" markdown="1">
 
-## Compatability
+## Compatibility
 
-|                     |[Chrome][2]|[Firefox][4]|[Safari][6]  
-|---------------------|:---------:|:----------:|:---------:
-|[Desktop (360)][7]   |✔          |✔           |✔     
-|[Mobile Device][8]   |✔          |✔           |✔     
-|[Oculus Rift][9]     |✔          |✔           |?      
-|[HTC Vive][10]       |✔          |✔           |?
-|[Google Daydream][11]|✔          |            |
+|                     |[Chrome][2]      |[Firefox][4]     |Safari  
+|---------------------|:---------------:|:---------------:|:---------:
+|[Desktop (360)][7]   |✔                |?                |✔     
+|[Mobile Device][8]   |?                |✔                |✔     
+|[Oculus Rift][9]     |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
+|[HTC Vive][10]       |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
 
 [1]:instructions.html#edge-ins
 [2]:instructions.html#chrome-ins 
@@ -56,6 +55,6 @@ The makers state "Our desire in this project, as well as many others, is to conn
 [11]:https://vr.google.com/daydream/
 [12]:instructions.html
 
-***Note:** Viewing content in 360-degrees on your **Desktop** or using a mobile device with [Google Cardboard](https://vr.google.com/cardboard) does not usually require any special setup. You may need to do some [special setup][12] for your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive**.*
+***Note:** You may need to do some [special setup][12] for your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive**.*
 
 </div>

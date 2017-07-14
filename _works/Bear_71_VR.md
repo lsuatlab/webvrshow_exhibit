@@ -37,15 +37,15 @@ Leanne Allison (Director) is a Gemini Award-winning filmmaker who takes audience
 
 <div class="box" markdown="1">
 
-## Requirements
+## Compatibility
 
-|                     |[Chrome][2]|[Firefox][4]|[Safari][6]  
-|---------------------|:---------:|:----------:|:---------:
-|[Desktop (360)][7]   |✔          |✔           |✔     
-|[Google Cardboard][8]|✔          |✔           |✔     
-|[Oculus Rift][9]     |?          |?           |?      
-|[HTC Vive][10]       |?          |?           |?
-  
+|                     |[Chrome][2]      |[Firefox][4]     |Safari  
+|---------------------|:---------------:|:---------------:|:---------:
+|[Desktop (360)][7]   |✔                |✔                |✔     
+|[Mobile Device][8]   |✔                |✔                |✔     
+|[Oculus Rift][9]     |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
+|[HTC Vive][10]       |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
+
 [1]:instructions.html#edge-ins
 [2]:instructions.html#chrome-ins 
 [3]:instructions.html#chromium-ins 
@@ -56,7 +56,9 @@ Leanne Allison (Director) is a Gemini Award-winning filmmaker who takes audience
 [8]:https://vr.google.com/cardboard/
 [9]:https://www.oculus.com/rift/
 [10]:https://www.vive.com/
+[11]:https://vr.google.com/daydream/
+[12]:instructions.html
 
-***Note:** Viewing content in 360-degrees on your **Desktop** or using a mobile device with **Google Cardboard** does not usually require any special browser setup. For instructions on how to setup your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive** click on the browser name above. The **Samsung Gear VR** and **Google Daydream** are also good choices for experiencing WebVR. If the piece works on Google Cardboard it is likely going to work on these as well.*
+***Note:** You may need to do some [special setup][12] for your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive**.*
 
 </div>

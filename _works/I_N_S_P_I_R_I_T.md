@@ -9,9 +9,9 @@ images:
 - I_N_S_P_I_R_I_T_1.jpg
 - I_N_S_P_I_R_I_T_2.jpg
 - I_N_S_P_I_R_I_T_3.jpg
-video-poster: I_N_S_P_I_R_I_T-poster.png
 videos: 
-- I_N_S_P_I_R_I_T-h264.mp4
+- im: I_N_S_P_I_R_I_T-poster.png
+  h5: I_N_S_P_I_R_I_T-h264.mp4
 work-url: http://inspirit.unboring.net/
 ---
 
@@ -20,29 +20,26 @@ work-url: http://inspirit.unboring.net/
 <div class="box" markdown="1">
 
 ## Description
-I N S P I R I T may seem to be a story about light, but it is really more about people. People who enlighten us and complete us; because I like to think that there are people whose presence lights us up inside.   
+I N S P I R I T may seem to be a story about light, but it is really more about people. People who enlighten us and complete us. The author, Arturo Paracuellos, likes to think that there are people whose presence lights us up inside. The work involves an interactive story with a small puzzle for the user to solve in order to move forward in the experience. The user plays a hero who has to find and then place a series of mysterious lights, thus illuminating their tiny world.
 
-## Bios	
-Since childhood I have dreamed to create imaginary worlds and now I've learned to draw and bring them to life with code. 
+Arturo used the 3D tool Blender to model the simple character's skeleton and create movements based on user actions. This resulted in 12 animations in a loop of about 2 to 3 seconds. These skeletal animations were exported to THREE.js to create the final on screen result. Arturo also used THREE.Audio and THREE.AudioListener as the base for creating immersive sound content for mobile, desktop, and headset experiences.
 
-I obtained my B.Sc. in Geological Science in 2000 but I've only worked in online development related jobs as interactive designer/developer. In 2010 I founded unboring.net with the main goal to create a new interactive entertainment and to help brands to create inmersive experiences.
-This year my effort is centered in the world of 3D web and the emergence of VR, that give me the opportunity to offer new ways of interacting with content.
-
-Now, my goal is to create innovative projects that demonstrate that through the Web you can get amazing results.
+## Bio	
+[Arturo Paracuellos](http://unboring.net/) has dreamed about creating imaginary worlds since childhood. He is now able to draw and bring them to life with code. Although Arturo obtained his B.Sc. in Geological Science in 2000 he has only worked in web development related jobs as either an interactive designer or developer. In 2010 he founded unboring.net with the goal to create new interactive entertainment and to help brands to create inmersive experiences. This past year Arturo's efforts have been centered on the world of 3D web and the emergence of VR, that give him the opportunity to offer new ways of interacting with content.
 
 </div>
 
 <div class="box" markdown="1">
 
-## Requirements
+## Compatibility
 
-|                     |[Chrome][2]|[Firefox][4]|[Safari][6]  
-|---------------------|:---------:|:----------:|:---------:
-|[Desktop (360)][7]   |✔          |✔           |✔     
-|[Google Cardboard][8]|✔          |✔           |✔     
-|[Oculus Rift][9]     |?          |?           |?      
-|[HTC Vive][10]       |?          |?           |?
-  
+|                     |[Chrome][2]      |[Firefox][4]     |Safari  
+|---------------------|:---------------:|:---------------:|:---------:
+|[Desktop (360)][7]   |✔                |✔                |✔     
+|[Mobile Device][8]   |✔                |✔                |✔     
+|[Oculus Rift][9]     |✔                |✔                |      
+|[HTC Vive][10]       |                 |                 |      
+
 [1]:instructions.html#edge-ins
 [2]:instructions.html#chrome-ins 
 [3]:instructions.html#chromium-ins 
@@ -53,7 +50,9 @@ Now, my goal is to create innovative projects that demonstrate that through the 
 [8]:https://vr.google.com/cardboard/
 [9]:https://www.oculus.com/rift/
 [10]:https://www.vive.com/
+[11]:https://vr.google.com/daydream/
+[12]:instructions.html
 
-***Note:** Viewing content in 360-degrees on your **Desktop** or using a mobile device with **Google Cardboard** does not usually require any special browser setup. For instructions on how to setup your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive** click on the browser name above. The **Samsung Gear VR** and **Google Daydream** are also good choices for experiencing WebVR. If the piece works on Google Cardboard it is likely going to work on these as well.*
+***Note:** You may need to do some [special setup][12] for your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive**.*
 
 </div>

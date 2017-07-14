@@ -9,10 +9,9 @@ images:
 - loft_1.jpg
 - loft_2.jpg
 - loft_3.jpg
-video-poster: loft-poster.png
 videos: 
-- loft-h264.mp4
-- loft-vp9.webm
+- im: loft-poster.png
+  h5: loft-h264.mp4
 work-url: http://loft.miscellanea.com
 ---
 
@@ -29,22 +28,22 @@ As well as investigating ways of presenting fragmented and abstract narratives w
 
 On initiating the work, a number of ‘virtual seeds’ are randomly spread around the environment, and begin to grow vertically. At the same time an entity begins to fly through the space, exploring its own new environment. As the seeds mature they will flower, attracting the flying entity, which will deliver fragments of spatialise audio narrative to each flower as it visits them. This flowers will eventually die and with them the fragment of audio. Over a period of approximately 6 to 7 minutes the world will come to life and then return to a state of quiet. The viewer can explore the resulting audio environment by using a look navigation technique. By looking at the translucent pink diamonds in the space they will move towards them and be able to navigate throughout the environment, and by doing so mixing the spatialised narrative that is forming around them into their own discreet narrative.    
 
-## Bios	
-Dr Andrew Burrell is a new media artist, writer and educator working with emerging technologies in the realms of real time 3d, interactive installation and networked environments. His work investigates the relationship between imagined and remembered narrative and the constitution of identity, and demonstrates an ongoing creative and thematic interest in the multi-layered biological and technological encoding of human subjectivity. His practice revolves around the collection, writing and representation of narrative ‘fictions’ and the interplay of art, philosophy, technology and the life-sciences, and challenges accounts of the self as being both continuous and linear. His networked projects in virtual and augmented environments have received international recognition.
+## Bio	
+Dr. [Andrew Burrell](http://miscellanea.com/) is a new media artist, writer and educator working with emerging technologies in the realms of real time 3d, interactive installation and networked environments. His work investigates the relationship between imagined and remembered narrative and the constitution of identity, and demonstrates an ongoing creative and thematic interest in the multi-layered biological and technological encoding of human subjectivity. His practice revolves around the collection, writing and representation of narrative ‘fictions’ and the interplay of art, philosophy, technology and the life-sciences, and challenges accounts of the self as being both continuous and linear. His networked projects in virtual and augmented environments have received international recognition.
 
 </div>
 
 <div class="box" markdown="1">
 
-## Requirements
+## Compatibility
 
-|                     |[Chrome][2]|[Firefox][4]|[Safari][6]  
-|---------------------|:---------:|:----------:|:---------:
-|[Desktop (360)][7]   |✔          |✔           |✔     
-|[Google Cardboard][8]|✔          |✔           |✔     
-|[Oculus Rift][9]     |?          |?           |?      
-|[HTC Vive][10]       |?          |?           |?
-  
+|                     |[Chrome][2]      |[Firefox][4]     |Safari  
+|---------------------|:---------------:|:---------------:|:---------:
+|[Desktop (360)][7]   |✔                |✔                |✔     
+|[Mobile Device][8]   |✔                |✔                |     
+|[Oculus Rift][9]     |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
+|[HTC Vive][10]       |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
+
 [1]:instructions.html#edge-ins
 [2]:instructions.html#chrome-ins 
 [3]:instructions.html#chromium-ins 
@@ -55,7 +54,9 @@ Dr Andrew Burrell is a new media artist, writer and educator working with emergi
 [8]:https://vr.google.com/cardboard/
 [9]:https://www.oculus.com/rift/
 [10]:https://www.vive.com/
+[11]:https://vr.google.com/daydream/
+[12]:instructions.html
 
-***Note:** Viewing content in 360-degrees on your **Desktop** or using a mobile device with **Google Cardboard** does not usually require any special browser setup. For instructions on how to setup your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive** click on the browser name above. The **Samsung Gear VR** and **Google Daydream** are also good choices for experiencing WebVR. If the piece works on Google Cardboard it is likely going to work on these as well.*
+***Note:** You may need to do some [special setup][12] for your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive**.*
 
 </div>

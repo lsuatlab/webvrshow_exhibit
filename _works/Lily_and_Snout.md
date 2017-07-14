@@ -9,16 +9,13 @@ images:
 - Lily_and_Snout_1.jpg
 - Lily_and_Snout_2.jpg
 - Lily_and_Snout_3.jpg
-video-poster: Lily_and_Snout-poster.png
 videos: 
-- Lily_and_Snout-h264.mp4
-- Lily_and_Snout-vp9.webm
-work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_constraint_pitch_down=0&scrollwheel=0&autospin=0&navigation=fps&fps_speed=0&camera=0&preload=1
+- im: Lily_and_Snout-poster.png
+  h5: Lily_and_Snout-h264.mp4
+work-url: https://sketchfab.com/models/618ea0209b1045e89b2c6d2b74d0956e
 ---
 
 <h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Click to Experience</a></h2>
-
-***Note**: If the initial camera angle doesn't start off right in Lily and Snout you may have to first click the question mark (?) icon then "Reset Camera View."*
 
 <div class="box" markdown="1">
 
@@ -34,15 +31,15 @@ work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_co
 
 <div class="box" markdown="1">
 
-## Requirements
+## Compatibility
 
-|                     |[Chrome][2]|[Firefox][4]|[Safari][6]  
-|---------------------|:---------:|:----------:|:---------:
-|[Desktop (360)][7]   |✔          |✔           |✔     
-|[Google Cardboard][8]|✔          |✔           |✔     
-|[Oculus Rift][9]     |?          |?           |?      
-|[HTC Vive][10]       |?          |?           |?
-  
+|                     |[Chrome][2]      |[Firefox][4]     |Safari  
+|---------------------|:---------------:|:---------------:|:---------:
+|[Desktop (360)][7]   |✔                |?                |✔     
+|[Mobile Device][8]   |?                |✔                |✔     
+|[Oculus Rift][9]     |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
+|[HTC Vive][10]       |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
+
 [1]:instructions.html#edge-ins
 [2]:instructions.html#chrome-ins 
 [3]:instructions.html#chromium-ins 
@@ -53,7 +50,9 @@ work-url: https://sketchfab.com/models/d339a1752167411f89b2f6fa49b7ec15?orbit_co
 [8]:https://vr.google.com/cardboard/
 [9]:https://www.oculus.com/rift/
 [10]:https://www.vive.com/
+[11]:https://vr.google.com/daydream/
+[12]:instructions.html
 
-***Note:** Viewing content in 360-degrees on your **Desktop** or using a mobile device with **Google Cardboard** does not usually require any special browser setup. For instructions on how to setup your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive** click on the browser name above. The **Samsung Gear VR** and **Google Daydream** are also good choices for experiencing WebVR. If the piece works on Google Cardboard it is likely going to work on these as well.*
+***Note:** You may need to do some [special setup][12] for your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive**.*
 
 </div>

@@ -8,7 +8,7 @@ nav-menu: true
 
 <section id="desktop-ins">
 <div class="inner" markdown="1">
-## Desktop(360)
+## Desktop (360)
 
 Many WebVR sites allow the option for viewing content using the Desktop with a modern web browser. They often do this by providing a means for navigting in 360-degrees through panning, orbitting, and zooming with the cursor. 
 
@@ -23,6 +23,8 @@ To experience content in virtual reality you will need a headset like the HTC Vi
 
 1. In the address bar, open `chrome://flags#enable-webvr` and enable WebVR.
 2. In the address bar, open `chrome://flags#enable-gamepad-extensions` and enable Gamepad Extensions.
+
+**Note:** *Even after doing this Chrome may not work yet on Oculus or Vive with all applications. If so, see Chromium instructions below.*
 
 </div>
 </section>
@@ -47,8 +49,17 @@ To experience content in virtual reality you will need a headset like the HTC Vi
 
 ## Chrome for Android
 
-1. Download Chrome Canary on your Android
+1. Download Chrome (or Chrome Canary) on your Android
 2. In the address bar, open `chrome://flags#enable-webvr` and enable WebVR.
+
+</div>
+</section>
+
+<section id="firefox-ins">
+<div class="inner" markdown="1">
+
+## Firefox
+*Normal Firefox may not work yet with Oculus or Vive. If so, try Firefox Nightly. See below.*
 
 </div>
 </section>
@@ -57,7 +68,7 @@ To experience content in virtual reality you will need a headset like the HTC Vi
 <div class="inner" markdown="1">
 
 ## Firefox Nightly
-* Download from: <https://www.mozilla.org/en-US/firefox/channel/desktop>
+Download from: <https://www.mozilla.org/en-US/firefox/channel/desktop>
 
 </div>
 </section>

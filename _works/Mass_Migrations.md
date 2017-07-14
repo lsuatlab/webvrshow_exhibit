@@ -10,10 +10,10 @@ images:
 - Mass_Migrations_1.jpg
 - Mass_Migrations_2.jpg
 - Mass_Migrations_3.jpg
-video-poster: Mass_Migrations-poster.png
+video-poster: 
 videos: 
-- Mass_Migrations-h264.mp4
-- Mass_Migrations-vp9.webm
+- im: Mass_Migrations-poster.png 
+  h5: Mass_Migrations-h264.mp4
 work-url: https://marpi.pl/work/mass-migrations-builder/
 ---
 
@@ -26,21 +26,21 @@ Mass Migrations is a generative, interactive VR installation.
 Originally started as an infinite, procedurally generated environment, the latest version of the project lets people build their own creatures/robots, interact with them and set them free.   
 
 ## Bios	
-Marpi is a San Francisco based Technical Director / Digital Artist currently working at Obscura Digital. His experience spans thirteen years in the industry, including 11 years in digital production environments. Marpi has migrated between different technologies and media, in both the commercial and art worlds; he has been lucky to work with and lead the most passionate and talented people in the industry. Marpi’s creative work revolves around building 3D worlds, creating immersive Virtual Reality experiences, Interactive Art events, and storytelling in style and difference, for clients including Magic Leap, Google, Microsoft, Salvador Dalí Museum, Qatar Foundation, Li Ka-shing, Disney, Adobe, Nintendo, MTV, Puma, MGM and CNN.
+[Marpi](https://marpi.pl/) is a San Francisco based Technical Director / Digital Artist currently working at Obscura Digital. His experience spans thirteen years in the industry, including 11 years in digital production environments. Marpi has migrated between different technologies and media, in both the commercial and art worlds; he has been lucky to work with and lead the most passionate and talented people in the industry. Marpi’s creative work revolves around building 3D worlds, creating immersive Virtual Reality experiences, Interactive Art events, and storytelling in style and difference, for clients including Magic Leap, Google, Microsoft, Salvador Dalí Museum, Qatar Foundation, Li Ka-shing, Disney, Adobe, Nintendo, MTV, Puma, MGM and CNN.
 
 </div>
 
 <div class="box" markdown="1">
 
-## Requirements
+## Compatibility
 
-|                     |[Chrome][2]|[Firefox][4]|[Safari][6]  
-|---------------------|:---------:|:----------:|:---------:
-|[Desktop (360)][7]   |✔          |✔           |✔     
-|[Google Cardboard][8]|✔          |✔           |✔     
-|[Oculus Rift][9]     |?          |?           |?      
-|[HTC Vive][10]       |?          |?           |?
-  
+|                     |[Chrome][2]      |[Firefox][4]     |Safari  
+|---------------------|:---------------:|:---------------:|:---------:
+|[Desktop (360)][7]   |✔                |✔                |✔     
+|[Mobile Device][8]   |✔                |✔                |     
+|[Oculus Rift][9]     |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
+|[HTC Vive][10]       |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
+
 [1]:instructions.html#edge-ins
 [2]:instructions.html#chrome-ins 
 [3]:instructions.html#chromium-ins 
@@ -51,7 +51,9 @@ Marpi is a San Francisco based Technical Director / Digital Artist currently wor
 [8]:https://vr.google.com/cardboard/
 [9]:https://www.oculus.com/rift/
 [10]:https://www.vive.com/
+[11]:https://vr.google.com/daydream/
+[12]:instructions.html
 
-***Note:** Viewing content in 360-degrees on your **Desktop** or using a mobile device with **Google Cardboard** does not usually require any special browser setup. For instructions on how to setup your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive** click on the browser name above. The **Samsung Gear VR** and **Google Daydream** are also good choices for experiencing WebVR. If the piece works on Google Cardboard it is likely going to work on these as well.*
+***Note:** You may need to do some [special setup][12] for your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive**.*
 
 </div>
