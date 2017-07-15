@@ -17,7 +17,7 @@ videos:
 work-url: https://bear71vr.nfb.ca
 ---
 
-<h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Click to Experience</a></h2>
+<h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Experience Now</a></h2>
 
 <div class="box" markdown="1">
 
@@ -41,10 +41,10 @@ Leanne Allison (Director) is a Gemini Award-winning filmmaker who takes audience
 
 |                     |[Chrome][2]      |[Firefox][4]     |Safari  
 |---------------------|:---------------:|:---------------:|:---------:
-|[Desktop (360)][7]   |✔                |✔                |✔     
-|[Mobile Device][8]   |✔                |✔                |✔     
-|[Oculus Rift][9]     |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
-|[HTC Vive][10]       |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
+|[Desktop][7]         |✔                |✔                |✔     
+|[Mobile][8]          |✔                |✔                |✔     
+|[Oculus][9]          |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
+|[Vive][10]           |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
 
 [1]:instructions.html#edge-ins
 [2]:instructions.html#chrome-ins 
