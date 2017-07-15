@@ -29,12 +29,12 @@ work-url: http://a-way-to-go.com
 
 ## Compatibility
 
-|                     |[Chrome][2]     |[Firefox][4]   |[Safari][6]  
-|---------------------|:--------------:|:-------------:|:---------:
-|[Desktop (360)][7]   |✔               |✔              |✔     
-|[Mobile Device][8]   |✔               |✔              |✔    
-|[Oculus Rift][9]     |✔[(Chromium)][3]|✔[(Nightly)][5]|       
-|[HTC Vive][10]       |✔[(Chromium)][3]|✔[(Nightly)][5]|
+|            |[Chrome][2]     |[Firefox][4]   |[Safari][6]  
+|------------|:--------------:|:-------------:|:---------:
+|[Desktop][7]|✔               |✔              |✔     
+|[Mobile][8] |✔               |✔              |✔    
+|[Oculus][9] |✔[(Chromium)][3]|✔[(Nightly)][5]|       
+|[Vive][10]  |✔[(Chromium)][3]|✔[(Nightly)][5]|
   
 [1]:instructions.html#edge-ins
 [2]:instructions.html#chrome-ins 

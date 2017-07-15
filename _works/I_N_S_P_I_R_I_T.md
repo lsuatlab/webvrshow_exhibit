@@ -31,12 +31,12 @@ Arturo used the 3D tool Blender to model the simple character's skeleton and cre
 
 ## Compatibility
 
-|                     |[Chrome][2]      |[Firefox][4]     |Safari  
-|---------------------|:---------------:|:---------------:|:---------:
-|[Desktop (360)][7]   |✔                |✔                |✔     
-|[Mobile Device][8]   |✔                |✔                |✔     
-|[Oculus Rift][9]     |✔                |✔                |      
-|[HTC Vive][10]       |                 |                 |      
+|            |[Chrome][2]      |[Firefox][4]     |Safari  
+|------------|:---------------:|:---------------:|:---------:
+|[Desktop][7]|✔                |✔                |✔     
+|[Mobile][8] |✔                |✔                |✔     
+|[Oculus][9] |✔                |✔                |      
+|[Vive][10]  |                 |                 |      
 
 [1]:instructions.html#edge-ins
 [2]:instructions.html#chrome-ins 

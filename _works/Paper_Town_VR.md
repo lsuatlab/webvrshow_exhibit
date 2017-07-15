@@ -47,12 +47,12 @@ Inspired by the 1937 debut of the Disney Multi-Plane Camera, Paper Town VR enlis
 
 ## Compatibility
 
-|                     |[Chrome][2]      |[Firefox][4]     |Safari  
-|---------------------|:---------------:|:---------------:|:---------:
-|[Desktop (360)][7]   |✔                |✔                |✔     
-|[Mobile Device][8]   |                 |                 |     
-|[Oculus Rift][9]     |?                |?                |      
-|[HTC Vive][10]       |                 |                 |      
+|            |[Chrome][2]      |[Firefox][4]     |Safari  
+|------------|:---------------:|:---------------:|:---------:
+|[Desktop][7]|✔                |✔                |✔     
+|[Mobile][8] |                 |                 |     
+|[Oculus][9] |?                |?                |      
+|[Vive][10]  |                 |                 |      
 
 [1]:instructions.html#edge-ins
 [2]:instructions.html#chrome-ins 

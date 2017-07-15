@@ -31,12 +31,12 @@ Mark Lundin Edan Kwan are a part of the UK based experimental interaction design
 
 ## Compatibility
 
-|                     |[Chrome][2]     |[Firefox][4]|[Safari][6]  
-|---------------------|:--------------:|:----------:|:---------:
-|[Desktop (360)][7]   |?               |?           |?     
-|[Mobile Device][8]   |✔               |✔           |✔     
-|[Oculus Rift][9]     |✔[(Chromium)][3]|            |      
-|[HTC Vive][10]       |                |            |
+|            |[Chrome][2]     |[Firefox][4]|[Safari][6]  
+|------------|:--------------:|:----------:|:---------:
+|[Desktop][7]|?               |?           |?     
+|[Mobile][8] |✔               |✔           |✔     
+|[Oculus][9] |✔[(Chromium)][3]|            |      
+|[Vive][10]  |                |            |
   
 [1]:instructions.html#edge-ins
 [2]:instructions.html#chrome-ins 

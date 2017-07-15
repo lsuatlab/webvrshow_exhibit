@@ -45,12 +45,12 @@ The characters were shot with Kinect in order to create a 3D body of live interv
 
 ## Compatibility
 
-|                     |[Chrome][2]     |[Firefox][4]|[Safari][6]  
-|---------------------|:--------------:|:----------:|:---------:
-|[Desktop (360)][7]   |✔               |            |✔     
-|[Mobile Device][8]   |✔               |✔           |✔     
-|[Oculus Rift][9]     |                |            |      
-|[HTC Vive][10]       |✔[(Chromium)][3]|            |
+|            |[Chrome][2]     |[Firefox][4]|[Safari][6]  
+|------------|:--------------:|:----------:|:---------:
+|[Desktop][7]|✔               |            |✔     
+|[Mobile][8] |✔               |✔           |✔     
+|[Oculus][9] |                |            |      
+|[Vive][10]  |✔[(Chromium)][3]|            |
   
 [1]:instructions.html#edge-ins
 [2]:instructions.html#chrome-ins 

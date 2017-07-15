@@ -31,12 +31,12 @@ With WebVR, not only Illy can be accessible with a click but also Illy leaves th
 
 ## Compatibility
 
-|                     |[Chrome][2]      |[Firefox][4]     |Safari  
-|---------------------|:---------------:|:---------------:|:---------:
-|[Desktop (360)][7]   |✔                |?                |✔     
-|[Mobile Device][8]   |                 |                 |     
-|[Oculus Rift][9]     |✔ [(Chromium)][3]|                 |      
-|[HTC Vive][10]       |✔ [(Chromium)][3]|                 |      
+|            |[Chrome][2]      |[Firefox][4]     |Safari  
+|------------|:---------------:|:---------------:|:---------:
+|[Desktop][7]|✔                |?                |✔     
+|[Mobile][8] |                 |                 |     
+|[Oculus][9] |✔ [(Chromium)][3]|                 |      
+|[Vive][10]  |✔ [(Chromium)][3]|                 |      
 
 [1]:instructions.html#edge-ins
 [2]:instructions.html#chrome-ins 

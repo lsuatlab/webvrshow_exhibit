@@ -35,12 +35,12 @@ Dr. [Andrew Burrell](http://miscellanea.com/) is a new media artist, writer and 
 
 ## Compatibility
 
-|                     |[Chrome][2]      |[Firefox][4]     |Safari  
-|---------------------|:---------------:|:---------------:|:---------:
-|[Desktop (360)][7]   |✔                |✔                |✔     
-|[Mobile Device][8]   |✔                |✔                |     
-|[Oculus Rift][9]     |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
-|[HTC Vive][10]       |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
+|            |[Chrome][2]      |[Firefox][4]     |Safari  
+|------------|:---------------:|:---------------:|:---------:
+|[Desktop][7]|✔                |✔                |✔     
+|[Mobile][8] |✔                |✔                |     
+|[Oculus][9] |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
+|[Vive][10]  |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
 
 [1]:instructions.html#edge-ins
 [2]:instructions.html#chrome-ins 

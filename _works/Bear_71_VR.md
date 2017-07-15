@@ -39,12 +39,12 @@ Leanne Allison (Director) is a Gemini Award-winning filmmaker who takes audience
 
 ## Compatibility
 
-|                     |[Chrome][2]      |[Firefox][4]     |Safari  
-|---------------------|:---------------:|:---------------:|:---------:
-|[Desktop][7]         |✔                |✔                |✔     
-|[Mobile][8]          |✔                |✔                |✔     
-|[Oculus][9]          |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
-|[Vive][10]           |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
+|            |[Chrome][2]      |[Firefox][4]     |Safari  
+|------------|:---------------:|:---------------:|:---------:
+|[Desktop][7]|✔                |✔                |✔     
+|[Mobile][8] |✔                |✔                |✔     
+|[Oculus][9] |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
+|[Vive][10]  |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
 
 [1]:instructions.html#edge-ins
 [2]:instructions.html#chrome-ins 
