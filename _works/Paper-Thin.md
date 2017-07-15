@@ -16,8 +16,6 @@ videos:
 work-url: http://www.paper-thin.org
 ---
 
-<h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Click to Experience</a></h2>
-
 <div class="box" markdown="1">
 
 ## Description

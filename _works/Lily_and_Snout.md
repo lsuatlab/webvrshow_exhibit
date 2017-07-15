@@ -15,8 +15,6 @@ videos:
 work-url: https://sketchfab.com/models/618ea0209b1045e89b2c6d2b74d0956e
 ---
 
-<h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Click to Experience</a></h2>
-
 <div class="box" markdown="1">
 
 ## Description

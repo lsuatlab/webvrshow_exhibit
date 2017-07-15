@@ -12,10 +12,8 @@ images:
 videos: 
 - im: Vaettir-poster.png
   h5: Vaettir-h264.mp4
-work-url: https://youtu.be/uvPwZclJ2nY
+work-url: https://vaettir.kuva.io/
 ---
-
-<h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Click to Experience</a></h2>
 
 <div class="box" markdown="1">
 
