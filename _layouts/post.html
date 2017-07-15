@@ -48,7 +48,7 @@
       				<video class="video-js vjs-default-skin vjs-big-play-centered" preload="auto" poster="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{% for h in pic %}{% if h != nil %}{{ pic }}{% endif %}{% endfor %}" data-setup='{ "techOrder": ["html5", "youtube"], "fluid": "true", "controls": "true"}'>
 
 		       			{% for h in h5video %}{% if h != nil %}
-		       			<source src="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ h5video }}" type="video/H264">
+		       			<source src="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ h5video }}" type="video/mp4">
 		       			{% endif %}{% endfor %}
 		       			{% for h in wmvideo %}{% if h != nil %}
 		       			<source src="{{base}}/{{ page.baselocation }}{{ page.titleUnderscored }}/{{ wmvideo }}" type="video/webm">
