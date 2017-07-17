@@ -13,9 +13,23 @@ videos:
 - im: I_N_S_P_I_R_I_T-poster.png
   h5: I_N_S_P_I_R_I_T-h264.mp4
 work-url: http://inspirit.unboring.net/
+chart:
+  chrome:
+    d: ✔
+    m: ✔
+    v: null
+    o: ✔ (Chromium)
+  firefox:
+    d: ✔
+    m: ✔
+    v: null
+    o: ✔ (Nightly)
+  safari:
+    d: ✔
+    m: ✔
+    v: null
+    o: null
 ---
-
-<div class="box" markdown="1">
 
 ## Description
 *I N S P I R I T* may seem to be a story about light, but it is really more about people. People who enlighten us and complete us. The author, Arturo Paracuellos, likes to think that there are people whose presence lights us up inside. The work involves an interactive story with a small puzzle for the user to solve in order to move forward in the experience. The user plays a hero who has to find and then place a series of mysterious lights, thus illuminating their tiny world.
@@ -24,33 +38,3 @@ Arturo used the 3D tool Blender to model the simple character's skeleton and cre
 
 ## Bio	
 [Arturo Paracuellos](http://unboring.net/) has dreamed about creating imaginary worlds since childhood. He is now able to draw and bring them to life with code. Although Arturo obtained his B.Sc. in Geological Science in 2000 he has only worked in web development related jobs as either an interactive designer or developer. In 2010 he founded unboring.net with the goal to create new interactive entertainment and to help brands to create inmersive experiences. This past year Arturo's efforts have been centered on the world of 3D web and the emergence of VR, that give him the opportunity to offer new ways of interacting with content.
-
-</div>
-
-<div class="box" markdown="1">
-
-## Compatibility
-
-|            |[Chrome][2]      |[Firefox][4]     |Safari  
-|------------|:---------------:|:---------------:|:---------:
-|[Desktop][7]|✔                |✔                |✔     
-|[Mobile][8] |✔                |✔                |✔     
-|[Oculus][9] |✔                |✔                |      
-|[Vive][10]  |                 |                 |      
-
-[1]:instructions.html#edge-ins
-[2]:instructions.html#chrome-ins 
-[3]:instructions.html#chromium-ins 
-[4]:instructions.html#firefox-ins 
-[5]:instructions.html#firefoxnightly-ins 
-[6]:instructions.html#safari-ins 
-[7]:instructions.html#desktop-ins
-[8]:https://vr.google.com/cardboard/
-[9]:https://www.oculus.com/rift/
-[10]:https://www.vive.com/
-[11]:https://vr.google.com/daydream/
-[12]:instructions.html
-
-***Note:** You may need to do some [special setup][12] for your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive**.*
-
-</div>

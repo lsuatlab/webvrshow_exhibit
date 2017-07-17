@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Worlds. Marpi x Archan Nair
-author: Marpi Marcinowski
+author: Marpi
 titleUnderscored: Worlds_Marpi_x_Archan_Nair
 baselocation: assets/works/
 image: assets/works/Worlds_Marpi_x_Archan_Nair/Worlds_Marpi_x_Archan_Nair_1.jpg
@@ -13,42 +13,26 @@ videos:
 - im: Worlds_Marpi_x_Archan_Nair-poster.png
   h5: Worlds_Marpi_x_Archan_Nair-h264.mp4
 work-url: http://demo.marpi.pl/archan/
+chart:
+  chrome:
+    d: ✔
+    m: ✔
+    v: ✔ (Chromium)
+    o: ✔ (Chromium)
+  firefox:
+    d: ✔
+    m: ✔
+    v: ✔ (Nightly)
+    o: ✔ (Nightly)
+  safari:
+    d: ✔
+    m: ✔
+    v:
+    o:
 ---
-
-<div class="box" markdown="1">
 
 ## Description
 An ongoing collaboration between San Francisco based creative coder Marpi and Archan Nair, a digital artist from New Delhi, India. An exploration of Archan’s worlds, extended in Virtual Reality into a creative, generative landscape. A VR triptych, 3 different world, 3 different interactions.    
 
 ## Bios	
-[Marpi](https://marpi.pl/) is a San Francisco based Technical Director / Digital Artist currently working at Obscura Digital. His experience spans thirteen years in the industry, including 11 years in digital production environments. Marpi has migrated between different technologies and media, in both the commercial and art worlds; he has been lucky to work with and lead the most passionate and talented people in the industry. Marpi’s creative work revolves around building 3D worlds, creating immersive Virtual Reality experiences, Interactive Art events, and storytelling in style and difference, for clients including Magic Leap, Google, Microsoft, Salvador Dalí Museum, Qatar Foundation, Li Ka-shing, Disney, Adobe, Nintendo, MTV, Puma, MGM and CNN.
-
-</div>
-
-<div class="box" markdown="1">
-
-## Compatibility
-
-|            |[Chrome][2]     |[Firefox][4]   |[Safari][6]  
-|------------|:--------------:|:-------------:|:---------:
-|[Desktop][7]|✔               |✔              |✔     
-|[Mobile][8] |✔               |✔              |✔    
-|[Oculus][9] |✔[(Chromium)][3]|✔[(Nightly)][5]|       
-|[Vive][10]  |✔[(Chromium)][3]|✔[(Nightly)][5]|
-  
-[1]:instructions.html#edge-ins
-[2]:instructions.html#chrome-ins 
-[3]:instructions.html#chromium-ins 
-[4]:instructions.html#firefox-ins 
-[5]:instructions.html#firefoxnightly-ins 
-[6]:instructions.html#safari-ins 
-[7]:instructions.html#desktop-ins
-[8]:https://vr.google.com/cardboard/
-[9]:https://www.oculus.com/rift/
-[10]:https://www.vive.com/
-[11]:https://vr.google.com/daydream/
-[12]:instructions.html
-
-***Note:** You may need to do some [special setup][12] for your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive**.*
-
-</div>
+**[Marpi](https://marpi.pl/)** is a San Francisco based Technical Director / Digital Artist currently working at Obscura Digital. His experience spans thirteen years in the industry, including 11 years in digital production environments. Marpi has migrated between different technologies and media, in both the commercial and art worlds; he has been lucky to work with and lead the most passionate and talented people in the industry. Marpi’s creative work revolves around building 3D worlds, creating immersive Virtual Reality experiences, Interactive Art events, and storytelling in style and difference, for clients including Magic Leap, Google, Microsoft, Salvador Dalí Museum, Qatar Foundation, Li Ka-shing, Disney, Adobe, Nintendo, MTV, Puma, MGM and CNN.

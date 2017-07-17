@@ -13,9 +13,23 @@ videos:
   - im: Finding_Love-poster.png
     h5: Finding_Love-h264.mp4
 work-url: https://findinglove.activetheory.net
+chart:
+  chrome:
+    d: ✔
+    m: ✔
+    v: ✔ (Chromium)
+    o: ✔ (Chromium)
+  firefox:
+    d: ✔
+    m: ✔
+    v: ✔ (Nightly)
+    o: ✔ (Nightly)
+  safari:
+    d: ✔
+    m: ✔
+    v: null
+    o: null
 ---
-
-<div class="box" markdown="1">
 
 ## Description
 *Finding Love* is a fully interactive, Virtual Reality story that transforms emotions into art. Moving through five distinct chapters, ones experiences a journey made from abstract visuals and sounds. In the story, the user’s avatar is a gem that is paired with another gem of a different color and shape.
@@ -26,33 +40,3 @@ The makers state "Our desire in this project, as well as many others, is to conn
 
 ## Bio	
 [Active Theory](https://activetheory.net/) is a creative development production company based in Venice, California founded by [Nick Mountford](https://twitter.com/nickmountford), [Andy Thelander](https://twitter.com/athlndr), and [Michael Anthony](https://twitter.com/michaeltheory). They have won numerous awards for work on such projects as Pottermore, Halo 5 Visualizer, Google Racer, and Coca Cola FIFA Shoot out. They are founded on web technology and believes screens of all shapes and sizes can be used to tell engaging, interactive stories. Their ideation process focuses on utilizing new technologies and techniques to connect people in meaningful ways.
-
-</div>
-
-<div class="box" markdown="1">
-
-## Compatibility
-
-|            |[Chrome][2]      |[Firefox][4]     |Safari  
-|------------|:---------------:|:---------------:|:---------:
-|[Desktop][7]|✔                |?                |✔     
-|[Mobile][8] |?                |✔                |✔     
-|[Oculus][9] |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
-|[Vive][10]  |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
-
-[1]:instructions.html#edge-ins
-[2]:instructions.html#chrome-ins 
-[3]:instructions.html#chromium-ins 
-[4]:instructions.html#firefox-ins 
-[5]:instructions.html#firefoxnightly-ins 
-[6]:instructions.html#safari-ins 
-[7]:instructions.html#desktop-ins
-[8]:https://vr.google.com/cardboard/
-[9]:https://www.oculus.com/rift/
-[10]:https://www.vive.com/
-[11]:https://vr.google.com/daydream/
-[12]:instructions.html
-
-***Note:** You may need to do some [special setup][12] for your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive**.*
-
-</div>
