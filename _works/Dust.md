@@ -1,18 +1,35 @@
 ---
 layout: post
 title: Dust
-author: Mária Júdová, Andrej Boleslavský and Miles Whittaker
+author: 'Mária Júdová, Andrej Boleslavský and Miles Whittaker'
 titleUnderscored: Dust
 baselocation: assets/works/
 image: assets/works/Dust/Dust_1.jpg
 images:
-- Dust_1.jpg
-- Dust_2.jpg
-- Dust_3.jpg
-videos: 
-- im: Dust-poster.png
-  h5: Dust-h264.mp4
-work-url: http://vrdust.org.uk
+  - Dust_1.jpg
+  - Dust_2.jpg
+  - Dust_3.jpg
+videos:
+  - im: Dust-poster.png
+    h5: Dust-h264.mp4
+work-url: 'http://vrdust.org.uk'
+published: true
+chart:
+  chrome:
+    d: ✔
+    m: ✔
+    v: ✔ (Chromium)
+    o: ✔ (Chromium)
+  firefox:
+    d: ✔
+    m: ✔
+    v: ✔ (Nightly)
+    o: ✔ (Nightly)
+  safari:
+    d: ✔
+    m: ✔
+    v: null
+    o: null
 ---
 
 <div class="box" markdown="1">
