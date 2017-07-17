@@ -43,4 +43,4 @@ Created in collaboration with Google’s Chrome and VR teams, IDFA DocLab and So
 ## Bios	
 Leanne Allison (Director) is a Gemini Award-winning filmmaker who takes audiences far off the beaten track to explore the experiences of endangered wildlife. Her credits include the NFB documentaries Being Caribou and Finding Farley, with husband Karsten Heuer. 
 
-[Jeremy Mendes](http://www.jeremymendes.com/) (Director) is a Vancouver-based artist with over 10 years’ experience working on interactive projects. A three-time Webby Award winner, he is currently working freelance on interactive projects with the NFB’s Digital Studio.
+**[Jeremy Mendes](http://www.jeremymendes.com/)** (Director) is a Vancouver-based artist with over 10 years’ experience working on interactive projects. A three-time Webby Award winner, he is currently working freelance on interactive projects with the NFB’s Digital Studio.
