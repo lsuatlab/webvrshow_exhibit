@@ -15,9 +15,23 @@ videos:
   - im: "Bear_71_VR-poster-yt.png" 
     yt: "https://www.youtube.com/watch?v=9tEkDonLzyw"
 work-url: https://bear71vr.nfb.ca
+chart:
+  chrome:
+    d: ✔
+    m: ✔
+    v: ✔ (Chromium)
+    o: ✔ (Chromium)
+  firefox:
+    d: ✔
+    m: ✔
+    v: ✔ (Nightly)
+    o: ✔ (Nightly)
+  safari:
+    d: ✔
+    m: ✔
+    v:
+    o:
 ---
-
-<h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Experience Now</a></h2>
 
 <div class="box" markdown="1">
 
@@ -32,33 +46,5 @@ Created in collaboration with Google’s Chrome and VR teams, IDFA DocLab and So
 Leanne Allison (Director) is a Gemini Award-winning filmmaker who takes audiences far off the beaten track to explore the experiences of endangered wildlife. Her credits include the NFB documentaries Being Caribou and Finding Farley, with husband Karsten Heuer. 
 
 [Jeremy Mendes](http://www.jeremymendes.com/) (Director) is a Vancouver-based artist with over 10 years’ experience working on interactive projects. A three-time Webby Award winner, he is currently working freelance on interactive projects with the NFB’s Digital Studio.
-
-</div>
-
-<div class="box" markdown="1">
-
-## Compatibility
-
-|            |[Chrome][2]      |[Firefox][4]     |Safari  
-|------------|:---------------:|:---------------:|:---------:
-|[Desktop][7]|✔                |✔                |✔     
-|[Mobile][8] |✔                |✔                |✔     
-|[Oculus][9] |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
-|[Vive][10]  |✔ [(Chromium)][3]|✔ [(Nightly)][5] |      
-
-[1]:instructions.html#edge-ins
-[2]:instructions.html#chrome-ins 
-[3]:instructions.html#chromium-ins 
-[4]:instructions.html#firefox-ins 
-[5]:instructions.html#firefoxnightly-ins 
-[6]:instructions.html#safari-ins 
-[7]:instructions.html#desktop-ins
-[8]:https://vr.google.com/cardboard/
-[9]:https://www.oculus.com/rift/
-[10]:https://www.vive.com/
-[11]:https://vr.google.com/daydream/
-[12]:instructions.html
-
-***Note:** You may need to do some [special setup][12] for your browser to work with a VR headset like the **Oculus Rift** or **HTC Vive**.*
 
 </div>

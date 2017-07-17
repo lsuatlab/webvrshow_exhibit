@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--
 	Forty by HTML5 UP
@@ -11,6 +12,9 @@
 <body>
 
     {% include header.html %} 
+
+
+
     
 <!-- Main -->
 <div id="main" class="alt">
@@ -22,8 +26,6 @@
 			<h1>{{ page.title }}</h1>
             <p>{{ page.author }}</p>
 		</header>
-
-
 		
 		
 		<span class="image main">
@@ -63,7 +65,9 @@
 		    		</video>
   				</li>
 				{% endfor %}    
-  				{% endif %}  				
+  				{% endif %}  	
+
+
 
 			</ul>
 
@@ -72,6 +76,50 @@
 		<h2><a href="{{ page.work-url }}" target="_blank" class="button fit special icon fa-play"> Experience Now</a></h2>
 		
 		<p>{{ content }}</p>
+
+<div class="box" markdown="1">
+<h2>Compatibility</h2>
+<table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th style="text-align: center"><a href="{{base}}{% link instructions.md %}#chrome-ins">Chrome</a></th>
+        <th style="text-align: center"><a href="{{base}}{% link instructions.md %}#firefox-ins">Firefox</a></th>
+        <th style="text-align: center">Safari</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="{{base}}{% link instructions.md %}#desktop-ins">Desktop</a></td>
+        <td style="text-align: center">{{page.chart.chrome.d | markdownify  | remove: '<p>' | remove: '</p>' | remove: "(Chromium)"}}{% if page.chart.chrome.d contains "Chromium" %}<a href="{{base}}{% link instructions.md %}#chromium-ins">(Chromium)</a>{% endif %}</td>
+        <td style="text-align: center">{{page.chart.firefox.d | markdownify  | remove: '<p>' | remove: '</p>' | remove: "(Nightly)"}}{% if page.chart.firefox.d contains "Nightly" %}<a href="{{base}}{% link instructions.md %}#firefoxnightly-ins">(Nightly)</a>{% endif %}</td>
+        <td style="text-align: center">{{page.chart.safari.d | markdownify  | remove: '<p>' | remove: '</p>'}}</td>
+      </tr>
+      <tr>
+        <td><a href="https://vr.google.com/cardboard/">Mobile</a></td>
+        <td style="text-align: center">{{page.chart.chrome.m | markdownify  | remove: '<p>' | remove: '</p>' | remove: "(Chromium)"}}{% if page.chart.chrome.m contains "Chromium" %}<a href="{{base}}{% link instructions.md %}#chromium-ins">(Chromium)</a>{% endif %}</td>
+        <td style="text-align: center">{{page.chart.firefox.m | markdownify  | remove: '<p>' | remove: '</p>' | remove: "(Nightly)"}}{% if page.chart.firefox.m contains "Nightly" %}<a href="{{base}}{% link instructions.md %}#firefoxnightly-ins">(Nightly)</a>{% endif %}</td>
+        <td style="text-align: center">{{page.chart.safari.m | markdownify  | remove: '<p>' | remove: '</p>'}}</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.oculus.com/rift/">Oculus</a></td>
+        <td style="text-align: center">{{page.chart.chrome.o | markdownify  | remove: '<p>' | remove: '</p>' | remove: "(Chromium)"}}{% if page.chart.chrome.o contains "Chromium" %}<a href="{{base}}{% link instructions.md %}#chromium-ins">(Chromium)</a>{% endif %}</td>
+        <td style="text-align: center">{{page.chart.firefox.o | markdownify  | remove: '<p>' | remove: '</p>' | remove: "(Nightly)"}}{% if page.chart.firefox.o contains "Nightly" %}<a href="{{base}}{% link instructions.md %}#firefoxnightly-ins">(Nightly)</a>{% endif %}</td>
+        <td style="text-align: center">{{page.chart.safari.o | markdownify  | remove: '<p>' | remove: '</p>'}}</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.vive.com/">Vive</a></td>
+        <td style="text-align: center">{{page.chart.chrome.v | markdownify  | remove: '<p>' | remove: '</p>' | remove: "(Chromium)"}}{% if page.chart.chrome.v contains "Chromium" %}<a href="{{base}}{% link instructions.md %}#chromium-ins">(Chromium)</a>{% endif %}</td>
+        <td style="text-align: center">{{page.chart.firefox.v | markdownify  | remove: '<p>' | remove: '</p>' | remove: "(Nightly)"}}{% if page.chart.firefox.v contains "Nightly" %}<a href="{{base}}{% link instructions.md %}#firefoxnightly-ins">(Nightly)</a>{% endif %}</td>
+        <td style="text-align: center">{{page.chart.safari.v | markdownify  | remove: '<p>' | remove: '</p>'}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+<p><strong>Note: </strong><em>You may need to do some <a href="{{base}}{% link instructions.md %}">special setup</a> for your browser to work with a VR headset like the <strong>Oculus Rift</strong> or <strong>HTC Vive</strong>.</em></p>
+
+</div>
+
 	</div>
 </section>
 
