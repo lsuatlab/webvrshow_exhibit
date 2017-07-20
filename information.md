@@ -38,7 +38,6 @@ Victoria Szabo, Chair
 Jim Demmers  
 Sue Gollifer  
 Kathy Rae Huffman  
-Scottie Chih-Chieh Huang (黃 致傑)  
 John Hyatt  
 Bonnie Mitchell  
 Hye Yeon Nam  
@@ -63,9 +62,9 @@ Jim Demmers
 [Andrew Banchich](http://andrewbanchi.ch/) (Jekyll Integration)  
 
 **Print and Graphic Design**  
-Xiaojun Huang 
-Hye Yeon Nam
-Luisa Restrepo Perez 
+Xiaojun Huang  
+Hye Yeon Nam  
+Luisa Restrepo Perez  
 
 **Volunteers**  
 Jake Hamill   

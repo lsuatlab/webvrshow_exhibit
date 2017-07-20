@@ -42,4 +42,4 @@ markdown: kramdown
 sass:
   style: compressed
 
-exclude: [Guardfile, LICENSE.md, 'README.md', 'Gemfile.lock', 'Gemfile', CONTRIBUTING.md, forty_jekyll_theme.gemspec]
+exclude: ["templates/", "**/originals", Guardfile, LICENSE.md, 'README.md', 'Gemfile.lock', 'Gemfile', CONTRIBUTING.md, forty_jekyll_theme.gemspec]
