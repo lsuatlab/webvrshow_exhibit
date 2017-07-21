@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bear 71 VR
-author: Leanne Allison and Jeremy Mendes
+author: Leanne Allison, Jeremy Mendes, and the NFB
 titleUnderscored: Bear_71_VR
 baselocation: assets/works/
 image: assets/works/Bear_71_VR/Bear_71_VR_1.jpg
@@ -18,17 +18,17 @@ work-url: https://bear71vr.nfb.ca
 chart:
   chrome:
     d: ✔
-    m: ✔
-    v: ✔ (Chromium)
-    o: ✔ (Chromium)
+    m: ✔ (Cardboard, 360, & Daydream)
+    v:
+    o:
   firefox:
     d: ✔
-    m: ✔
-    v: ✔ (Nightly)
-    o: ✔ (Nightly)
+    m:
+    v:
+    o: 
   safari:
     d: ✔
-    m: ✔
+    m: ✔ (Cardboard & 360)
     v:
     o:
 ---

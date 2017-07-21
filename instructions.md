@@ -6,13 +6,23 @@ image: assets/works/Lily_and_Snout/Lily_and_Snout_1.jpg
 nav-menu: true
 ---
 
-<section id="desktop-ins">
+<section id="all">
 <div class="inner" markdown="1">
-## Desktop (360)
 
-Many WebVR sites allow the option for viewing content using the Desktop with a modern web browser. They often do this by providing a means for navigting in 360-degrees through panning, orbitting, and zooming with the cursor. 
+## Instructions
 
 To experience content in virtual reality you will need a headset like the HTC Vive, Oculus Rift, Google Cardboard, Google Daydream, or Samsung Gear VR with a WebVR enabled browser like Firefox or Chrome. It's often a good idea to use the latest version of these browsers to take advantage of the newest features like Firefox Nightly, Chrome Canary, or a Chromium build tuned for Web VR. See the below instructions for various settings you might have to set. 
+
+</div>
+</section>
+
+<section id="desktop-ins">
+<div class="inner" markdown="1">
+
+## Desktop or Mobile 360° Viewing
+
+Many WebVR sites allow the option for viewing content using the Desktop or Mobile device with a modern web browser without a headset. They often do this by providing a means for navigating in 360-degrees through panning, orbiting, and zooming with the cursor. 
+
 </div>
 </section>
 
@@ -78,11 +88,21 @@ Download from: <https://www.mozilla.org/en-US/firefox/channel/desktop>
 
 ## Oculus Rift
 
-If you're using the Oculs Rift for viewing WebVR  you may initially get a screen saying you can't view content from "Unknown Sources." You will need to "Enable Unknown Sources" from the Oculus settings to fix this:
+If you're using the Oculus Rift for viewing WebVR  you may initially get a screen saying you can't view content from "Unknown Sources." You will need to "Enable Unknown Sources" from the Oculus settings to fix this:
 
 1. Go to Oculus Application Settings > General Settings
-2. Turn on "Unkown Sources"
+2. Turn on "Unknown Sources"
 3. Use Firefox or Chromium to view content.
+
+</div>
+</section>
+
+<section id="cardboard-ins">
+<div class="inner" markdown="1">
+
+## Google Daydream & Cardboard
+
+Google Daydream and Cardboard work by using a mobile device in conjunction with a headset.
 
 </div>
 </section>

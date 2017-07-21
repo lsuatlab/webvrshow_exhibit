@@ -10,20 +10,42 @@
 - [x] add work content from easychair
 - [x] finish template
 
+##Development Workflow
+
 **Dependencies**
-- Jekyll: `gem install jekyll bundler`
+- Jekyll & Bundle: `gem install jekyll bundler`
+- Follow with `bundle install` to install the rest of the dependencies from the gemfile.
 
 **Editing**
-- Start with: `bundle exec jekyll serve --watch --incremental`
-- In a separate window: `bundle exec guard`
+- Use a text editor, like Atom or Sublime, to add, create or modify content in: 
+- `_works\` folder for individual pieces
+- `_includes\` folder for components of your html pages
+- `_layouts\` folder for different layouts 
+- `assets\` folder for adding images, css, js, etc
 
-It's also useful to use watchy: 
+**Deploy**
+- Build `_site\` files with: `bundle exec jekyll build`
+- Upload contents of `_site\` via FTP
+
+##Advanced Workflow Caveats
+To aid in the development process consider the following additions to the above workflow.
+
+**Dependencies**
+- The `bundle install` command from above will install livereload-guard and guard.
+- `npm install -g http-server`
+
+**Editing**
+- In a terminal window: `bundle exec jekyll build --watch --incremental`
+- In a second terminal window: `bundle exec guard`
+- In a third terminal window: `http-server --c-1` to start an HTTP server running on port 8080. the `--c-1` part removes caching.
+
+It's also useful to use watchy to rebuild when config file is modified: 
 1. `npm install -g watchy`
 2. `watchy -w _config.yml -- bundle exec jekyll serve --watch`
 
-**Git-FTP Deploy**
+**Deploy with Git-FTP**
 
-Helpful to setup git-ftp to push:
+It's helpful to setup git-ftp to push changes to server:
 
 1. `brew install git-ftp`
 2. Add the following to .git/config
@@ -36,14 +58,11 @@ Helpful to setup git-ftp to push:
   syncroot = _site/
 ```
 
-To update the site:
+Then to update the site:
 
 1. `bundle exec jekyll build`
 2. `git add -A`
 3. `git commit -am "updated"`
-4. `git ftp push`
+4. `git push`
+5. `git ftp push`
 
-**Simple Deploy**
-
-- Build _site files with: `bundle exec jekyll build`
-- Upload contents of _site via FTP
