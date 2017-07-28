@@ -1,6 +1,7 @@
 **To Do**
+- [ ] permalinks
 - [ ] make video autoplay
-- [ ] upload vidoes to DAC YouTube
+- [ ] upload videos to DAC YouTube/Vimeo
 - [ ] Use Webrecorder.io to capture each piece
 - [ ] Screen capture each piece
 - [x] add google analytics

@@ -70,7 +70,7 @@ Luisa Restrepo Perez
 Jake Hamill   
 Sarah Ferguson  
 
-**ACM / ACM SIGGRAPH**
+**ACM / ACM SIGGRAPH**  
 Kristy Barkan, Content Manager, ACM SIGGRAPH  
 Ken Bauer, System Administrator, ACM SIGGRAPH  
 Stephen N. Spencer, Publications, ACM SIGGRAPH  
