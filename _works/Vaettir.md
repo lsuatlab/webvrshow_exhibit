@@ -15,18 +15,18 @@ videos:
 work-url: https://vaettir.kuva.io/
 chart:
   chrome:
-    d: ✔
-    m: ✔
-    v: 
+    d:
+    m: ✔ (Google Pixel)
+    v: ✔ (Chromium)
     o: ✔ (Chromium)
   firefox:
-    d: ✔
-    m: ✔
-    v: 
-    o: 
+    d:
+    m:
+    v: ✔ (Nightly)
+    o: ✔ (Nightly) 
   safari:
-    d: ✔
-    m: ✔
+    d:
+    m:
     v:
     o:
 ---
