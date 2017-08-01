@@ -77,6 +77,5 @@ Stephen N. Spencer, Publications, ACM SIGGRAPH
 Barb Helfer, Communications, ACM SIGGRAPH    
 Jeff Jortner, President of ACM SIGGRAPH  
 
-
 </div>
 </section>
