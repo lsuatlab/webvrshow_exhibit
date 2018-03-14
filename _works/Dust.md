@@ -2,6 +2,7 @@
 layout: post
 title: Dust
 author: 'Mária Júdová, Andrej Boleslavský and Miles Whittaker'
+year: 2016
 titleUnderscored: Dust
 baselocation: assets/works/
 image: assets/works/Dust/Dust_1.jpg

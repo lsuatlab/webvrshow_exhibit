@@ -2,6 +2,7 @@
 layout: post
 title: Bear 71 VR
 author: Leanne Allison, Jeremy Mendes, the NFB, and Jam3
+year: 2016
 titleUnderscored: Bear_71_VR
 baselocation: assets/works/
 image: assets/works/Bear_71_VR/Bear_71_VR_1.jpg

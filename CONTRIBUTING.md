@@ -11,7 +11,7 @@
 - [x] add work content from easychair
 - [x] finish template
 
-##Development Workflow
+## Development Workflow
 
 **Dependencies**
 - Jekyll & Bundle: `gem install jekyll bundler`
@@ -28,7 +28,7 @@
 - Build `_site\` files with: `bundle exec jekyll build`
 - Upload contents of `_site\` via FTP
 
-##Advanced Workflow Caveats
+## Advanced Workflow Caveats
 To aid in the development process consider the following additions to the above workflow.
 
 **Dependencies**

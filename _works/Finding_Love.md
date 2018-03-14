@@ -2,6 +2,7 @@
 layout: post
 title: Finding Love
 author: Active Theory
+year: 2017
 titleUnderscored: Finding_Love
 baselocation: assets/works/
 image: assets/works/Finding_Love/Finding_Love_1.jpg
