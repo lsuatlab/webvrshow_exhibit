@@ -2,6 +2,7 @@
 layout: post
 title: Mass Migrations
 author: Marpi
+year: 2017
 titleUnderscored: Mass_Migrations
 baselocation: assets/works/
 image: assets/works/Mass_Migrations/Mass_Migrations_1.jpg

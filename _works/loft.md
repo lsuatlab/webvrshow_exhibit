@@ -3,6 +3,7 @@ layout: post
 title: loft
 author: Andrew Burrell
 titleUnderscored: loft
+year: 2017
 baselocation: assets/works/
 image: assets/works/loft/loft_1.jpg
 images:

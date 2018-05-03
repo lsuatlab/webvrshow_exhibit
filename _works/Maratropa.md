@@ -2,6 +2,7 @@
 layout: post
 title: Maratropa
 author: Marpi
+year: 2017
 titleUnderscored: Maratropa
 baselocation: assets/works/
 image: assets/works/Maratropa/Maratropa_1.jpg

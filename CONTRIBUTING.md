@@ -55,7 +55,6 @@ It's helpful to setup git-ftp to push changes to server:
 [git-ftp]
   url = ftp://siggraphdigitalarts.hosting.acm.org:21/immersiveexpressions
   user = sgdigitalarts
-  password = PASSWORD
   syncroot = _site/
 ```
 

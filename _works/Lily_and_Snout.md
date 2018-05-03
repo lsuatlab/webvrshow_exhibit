@@ -2,6 +2,7 @@
 layout: post
 title: Lily and Snout
 author: Alban Denoyel and Bobby Beck
+year: 2017
 titleUnderscored: Lily_and_Snout
 baselocation: assets/works/
 image: assets/works/Lily_and_Snout/Lily_and_Snout_1.jpg
